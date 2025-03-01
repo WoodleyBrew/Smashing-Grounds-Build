@@ -1,5 +1,5 @@
 ######################################################################################
-Default [Moto]
+Default (Pierce List) [Moto]
 ######################################################################################
 * 286AEDF4 00000000 # If 806AEDF4 is equal to 0
 
@@ -18,26 +18,28 @@ Default [Moto]
 .GOTO->SkipStageTables
 
 TABLE_1:
-	byte[11] |
+	byte[10] |
+0x18, | # Fountain of Dreams
+0x1E, | # Sky Sanctuary Zone
+0x03, | # Luigi's Mansion
 0x1C, | # Green Hill Zone
-0x05, | # Bowser's Castle
-0x0B, | # Frigate Husk
-0x23, | # Dream Land
 0x08, | # Temple of Time
+0x0B, | # Frigate Husk
 0x1A, | # Smashville
 0x00, | # Battlefield
 0x28, | # Pokemon Stadium 2
-0x03, | # Luigi's Mansion
-0x2B, | # Training Room
-0x2B  | # Training Room
+0x21  | # Golden Temple
 
 TABLE_2:
-	byte[26] |
-0x24, | # Peach's Castle
+	byte[27] |
+0x0B, | # Frigate Husk
+0x05, | # Bowser's Castle
+0x23, | # Dream Land
 0x04, | # Metal Cavern
 0x02, | # Delfino's Secret
 0x0C, | # Yoshi's Island
 0x15, | # Wario Land
+0x01, | # Final Destination
 0x20, | # Yoshi's Story
 0x06, | # Kongo Jungle
 0x07, | # Rumble Falls
@@ -45,6 +47,7 @@ TABLE_2:
 0x1F, | # Temple
 0x22, | # Onett
 0x0D, | # Halberd
+0x0A, | # Ceres Space Colony
 0x27, | # Planet Zebes
 0x0F, | # Saffron City
 0x10, | # Spear Pillar
@@ -54,15 +57,12 @@ TABLE_2:
 0x12, | # Infinite Glacier
 0x26, | # Big Blue
 0x11, | # Port Town Aero Dive
-0x13, | # Flat Zone 2
-0x17, | # Skyworld
-0x1B, | # Shadow Moses Island
 0x1D, | # PictoChat
 0x2B  | # Training Room
 
 TABLE_3:
-	byte[27] |
-0x01, | # Final Destination
+	byte[26] |
+0x24, | # Peach's Castle
 0x31, | # Dinosaur Land
 0x2D, | # Mario Circuit
 0x38, | # Mushroom Kingdom
@@ -70,9 +70,7 @@ TABLE_3:
 0x3B, | # Rainbow Cruise
 0x32, | # Oil Drum Alley
 0x33, | # Jungle Japes
-0x21, | # Golden Temple
 0x36, | # Cookie Country
-0x18, | # Fountain of Dreams
 0x2E, | # Clock Town
 0x3D, | # Pirate Ship
 0x39, | # WarioWare, Inc.
@@ -80,13 +78,14 @@ TABLE_3:
 0x34, | # Bell Tower
 0x35, | # Norfair
 0x3E, | # Venom
-0x0A, | # Ceres Space Colony
 0x14, | # Castle Siege
 0x16, | # Distant Planet
+0x13, | # Flat Zone 2
+0x17, | # Skyworld
+0x1B, | # Shadow Moses Island
 0x2F, | # Hanenbow
 0x37, | # Venus Lighthouse
 0x2C, | # Dracula's Castle
-0x1E, | # Sky Sanctuary Zone
 0x30, | # Dead Line
 0x3A  | # Subspace
 
@@ -119,9 +118,9 @@ half[64] |	# Stage Count + 2
 SkipStageTables:
 .RESET
 * 286AEDF4 00000000 # If 806AEDF4 is equal to 0
-byte 11 @ $806B929C # Page 1
-byte 26 @ $806B92A4 # Page 2
-byte 27 @ $80496002 # Page 3
+byte 10 @ $806B929C # Page 1
+byte 27 @ $806B92A4 # Page 2
+byte 26 @ $80496002 # Page 3
 byte 00 @ $80496003 # Page 4 (Unused)
 byte 00 @ $80496004 # Page 5 (Unused)
 byte 62 @ $800AF673 # Stage Count
