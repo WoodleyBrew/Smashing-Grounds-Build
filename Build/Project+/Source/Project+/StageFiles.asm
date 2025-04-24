@@ -492,7 +492,7 @@ Custom Stage SD File Loader [DukeItOut, Kapedani]
 .alias RSS_EXDATA_BONUS				= 0x8042C840 
 .alias ASL_DATA						= 0x8053F000
 .alias TRACKLIST_DATA				= 0x8053F200
-.alias CODEMENU_ASL_OPTION 			= 0x804E09DB
+.alias CODEMENU_ASL_LOC				= 0x804E00E8
 
 .macro lbd(<reg>, <addr>)
 {
@@ -626,7 +626,11 @@ Replay:
 	b notRandom
 Multiplayer:    	
 	li r31, 0x2 
-	%lbd (r12, CODEMENU_ASL_OPTION)
+	%lwd(r12, CODEMENU_ASL_LOC)		# Attempt to grab the address of the Alt Stage line from the Code Menu.
+	cmplwi r12, 0x00				# If the line doesn't exist though...
+	beq skipToCheck					# ... skip trying to load its value, cuz we'd crash otherwise.
+	lwz r12, 0x08(r12)				# If it *does* exist though, load its value!
+skipToCheck:
 	cmpwi r12, 0x1
 	beq+ startRandomLoop
 	%lbd (r31, RSS_EXDATA_BONUS)	# \ 
@@ -687,8 +691,11 @@ notRandom:
 	lhz r12, 4(r22)			# \ Get the slot count
 	mtctr r12 				# /
 	%lwd (r12, g_GameGlobal)
+	lwz r10, 0x18(r12)		# g_GameGlobal->resultInfo
     cmpwi r27, 0x28		# \ check if results
 	beq+ isResult		# /
+	cmpwi r27, 0x39				# \ check if cRoll
+	beq+ getCharacterKind		# /
 	cmpwi r27, 0x38		# \ check if target smash
 	bne- loop			# /
 	lwz r12, 0x8(r12)	# \ turn substages into input so bonus stages can have their own param
@@ -696,14 +703,14 @@ notRandom:
 	b loop
 isResult:
 	li r16, 0x0
-	lwz r12, 0x18(r12)		# g_GameGlobal->resultInfo
-	lbz r11, 0x11(r12)		# \
+	lbz r11, 0x11(r10)		# \
 	cmpwi r11, 0x0			# | check if noContest
 	beq+ loop				# /
-	lbz r11, 0x1f(r12)		# |
+	lbz r11, 0x1f(r10)		# |
 	mulli r11, r11, 0x2ac	# | turn g_GameGlobal->resultInfo->playerResultInfo[winningPlayer].characterKind so that can have per character results screen
-	add r12, r12, r11		# | 
-	lbz r16, 0x24(r12)		# |
+	add r10, r10, r11		# | 
+getCharacterKind:
+	lbz r16, 0x24(r10)		# |
 	addi r16, r16, 0x1		# /
 loop:	
 	# r29 - Most accurate choice, defaulting to the start
@@ -2042,6 +2049,92 @@ isNotBuilderStagelist:
 	lbz r11, -0x1(r12)	# \ set stagekind 
 	stw r11, 0x258(r10)	# /
 }
+
+#####################################################################################
+Stage Builder Files Supports Having JPEG and RGBA8 TEX0 Images [Squidgy, Kapedani]
+# Allows for HD Textures since can't guarantee same JPEG decoding in game and outside
+#####################################################################################
+.alias memcpy 									= 0x80004338
+
+.macro lwi(<reg>, <val>)
+{
+    .alias  temp_Hi = <val> / 0x10000
+    .alias  temp_Lo = <val> & 0xFFFF
+    lis     <reg>, temp_Hi
+    ori     <reg>, <reg>, temp_Lo
+}
+.macro call(<addr>)
+{
+  %lwi(r12, <addr>)
+  mtctr r12
+  bctrl    
+}
+.macro branch(<addr>)
+{
+    %lwi(r12, <addr>)
+    mtctr r12
+    bctr
+}
+
+HOOK @ $806b8a6c	# muSelectStageFileTask::copyFileData
+{
+	lwz	r6, 0x10(r29) # Original operation
+	lwz r12,0x0(r4)		# Get first four bytes
+	%lwi(r11, 0x54455830)	# "TEX0"
+	cmpw r12, r11   # \ check if TEX0
+	bne+ %end%		# /
+	mr r3, r6			# \
+	addi r4, r4, 0x40	# | copy RGBA8
+	mr r5, r7			# |
+	%call(memcpy)		# /
+	%branch(0x806b8a74)
+}
+
+###################################################################################
+Stage Builder Files Supports Having UTF16 or UTF8 Encoded Names [Squidgy, Kapedani]
+# Allows for double the stage name length
+###################################################################################
+.macro lwi(<reg>, <val>)
+{
+    .alias  temp_Hi = <val> / 0x10000
+    .alias  temp_Lo = <val> & 0xFFFF
+    lis     <reg>, temp_Hi
+    ori     <reg>, <reg>, temp_Lo
+}
+.macro branch(<addr>)
+{
+    %lwi(r12, <addr>)
+    mtctr r12
+    bctr
+}
+
+op stb r3, 0xC(r29) @ $806b8a94	# Copy whole preview type byte from summary
+
+op andi. r12, r0, 0x1 @ $806b2bf4 # use only first bit to determine preview pic setting
+HOOK @ $806b2a98	# muSelectStageTask::dispEditLineData
+{
+	mr r4, r3	# Original operation
+	lbz r12, 0xC(r4)		# \
+	andi. r12, r12, 0x80	# | check if should use utf8 encoding
+	beq+ %end%				# /
+	lwz	r3, 0x6064(r25)	# \
+	addi r5, r4, 0x20	# |
+	addi r4, r26, 22	# | skip to printf
+	%branch(0x806b2ab4)	# /
+}
+
+op andi. r12, r0, 0x1 @ $806b6e40 #  use only first bit to determine preview pic setting
+HOOK @ $806b6db8	# muSelectStageTask::dispEditPreview
+{
+	mr r4, r3	# Original operation
+	lbz r12, 0xC(r4)		# \
+	andi. r12, r12, 0x80	# | check if should use utf8 encoding
+	beq+ %end%				# /
+	lwz	r3, 0x6064(r27)	# \
+	addi r5, r4, 0x20	# | skip to printf
+	%branch(0x806b6dd0)	# /
+}
+
 
 ## TODO: Classic/All Star Mode ASL from certain range (use all L-alts?)
 ## TODO: Also investigate random substage handling with replays

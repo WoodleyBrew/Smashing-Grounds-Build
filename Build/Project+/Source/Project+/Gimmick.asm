@@ -3,35 +3,6 @@ Crush anywhere anytime [Eon]
 ############################
 op nop @ $8083b1ac 
 
-#####################################################################################
-Crush effect in ef_StgBattleField outside of SSE v2 [DukeItOut, Kapedani]
-#
-#Requires a special ef_StgBattleField pac file to be included in the stage to show up
-#Requires "Crush anywhere anytime [Eon]" to function
-#####################################################################################
-.alias g_GameGlobal                 = 0x805a00E0
-
-.macro lwd(<reg>, <addr>)
-{
-    .alias  temp_Lo = <addr> & 0xFFFF
-    .alias  temp_Hi_ = <addr> / 0x10000
-    .alias  temp_r = temp_Lo / 0x8000
-    .alias  temp_Hi = temp_Hi_ + temp_r
-    lis     <reg>, temp_Hi
-    lwz     <reg>, temp_Lo(<reg>)
-}
-
-HOOK @ $8087C838	# ftStatusUniqProcessDead::initStatus
-{
-	ori r4, r3, 18		# Get SSE effect
-	%lwd(r12, g_GameGlobal)
-	lwz r12, 0x8(r12)	# \
-	lhz r12, 0x1a(r12)	# | check g_GameGlobal->globalModeMelee->meleeInitData.stageKind == Stage_Subspace
-	cmpwi r12, 0x3d		# /
-	beq+ %END% 	# Branch if in SSE
-	lis r4, 0x32; ori r4, r4, 1		# First effect ID in ef_StgBattlefield 
-}
-
 ######################################################################################
 Damage Floor Attack Data Takes into Account Additional Hitbox Flags [Kapedani]
 # Supports ignoreIntangibility, ignoreInvincibility, enableFriendlyFire, collisionMask

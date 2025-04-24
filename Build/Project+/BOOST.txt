@@ -10,6 +10,7 @@ op blt- 0x34	   @ $8018CFC8
 .include Source/Project+/StageFiles.asm
 .include Source/Project+/CustomRequirements.asm
 .include Source/Project+/Shake.asm
+.include Source/Project+/Slippery.asm
 .include Source/Project+/LedgeGrab.asm
 .include Source/Project+/ScreenKO.asm
 .include Source/Project+/Timeout.asm
@@ -17,6 +18,7 @@ op blt- 0x34	   @ $8018CFC8
 .include Source/Project+/PSA.asm
 .include Source/Project+/AnimatedCSS.asm
 .include Source/Project+/Hurtbox.asm
+.include Source/Project+/Camera.asm
 
 .include Source/ProjectM/IdleAudioFade.asm
 .include Source/ProjectM/Constants.asm
@@ -48,6 +50,7 @@ op blt- 0x34	   @ $8018CFC8
 
 .include Source/Project+/EffectCommands.asm
 .include Source/Project+/EffectsEX.asm
+.include Source/Project+/Effects.asm
 .include Source/Project+/Attributes.asm
 .include Source/Project+/PokeTrainer.asm
 
@@ -65,6 +68,7 @@ op blt- 0x34	   @ $8018CFC8
 .include Source/Project+/VictoryCamera.asm
 .include Source/Project+/ResultsSkip.asm
 .include Source/Project+/Unlocks.asm
+.include Source/Project+/Hitbox.asm
 
 .include Source/LegacyTE/ASLHelper.asm
 .include Source/LegacyTE/LoadFlags.asm
@@ -76,10 +80,13 @@ op blt- 0x34	   @ $8018CFC8
 
 .include Source/Community/MusicSelect.asm
 .include Source/Community/Subspace.asm
+.include Source/Community/SubspaceSwap.asm
+.include Source/Community/WallAttach.asm
 
 .include Source/Community/PSA/Angle.asm
 .include Source/Community/PSA/IC-Basics.asm
 .include Source/Community/PSA/Maths.asm
+.include Source/Community/PSA/NewCommands.asm
 .include Source/Community/PSA/PointerWizardry.asm
 .include Source/Community/PSA/PSA.asm
 .include Source/Community/PSA/VariableParameter.asm
