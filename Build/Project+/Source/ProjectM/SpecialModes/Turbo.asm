@@ -73,7 +73,7 @@ JumpCancel:
 DashCancelCheck:	
 	cmpwi r4, 0x8; bne+ skipDashCheck	# \
 	cmpwi r0, 0x10C; beq+ DashCancel	#  |Taunts can cancel into movement! 
-	cmpwi r0, 0x26; bgt+ skipDodge		# / Jabs and Dash attacks can cancel into movement, but other attacks can not!		
+	# cmpwi r0, 0x26; bgt+ skipDodge		# / Jabs and Dash attacks can cancel into movement, but other attacks can not!		
 DashCancel:
 skipDashCheck:
 	stw r4, 0x8(r1)
