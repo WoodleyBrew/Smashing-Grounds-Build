@@ -94,7 +94,7 @@ finish:
 HOOK @ $807724F4
 {
 	stb r0, 0x1C(r3)		# Original operation
-	lwz r3, 0x3C(r27)
+	lwz r3, 0x3C(r31)
 	lwz r3, 0xA4(r3)
 	mtctr r3
 	bctrl
