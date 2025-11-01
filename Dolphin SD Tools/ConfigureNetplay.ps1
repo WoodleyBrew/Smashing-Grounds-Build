@@ -2,6 +2,7 @@
 
 copy "../Build/Project+/RSBE01.txt" "../Build/Project+/NETPLAY.txt" -Force -erroraction 'silentlycontinue'
 copy "../Build/Project+/BOOST.txt" "../Build/Project+/NETBOOST.txt" -Force -erroraction 'silentlycontinue'
+copy "../Build/Project+/pf/stage/switch/Switch00.rss" "../Build/Project+/pf/stage/switch/SwitchFF.rss" -Force -erroraction 'silentlycontinue'
 copy "../Build/Project+/pf/fighter/szerosuit" "../zssBackup" -Force -Recurse -erroraction 'silentlycontinue'
 New-Item -ItemType Directory -Force -Path "../Build/Project+/Source/Netplay/"
 copy "../Build/Project+/Source/Project+/StageFiles.asm" "../Build/Project+/Source/Netplay/Net-StageFiles.asm" -Force -erroraction 'silentlycontinue'

@@ -2,6 +2,7 @@ del "..\Build\Project+\NETPLAY.txt" -Confirm:$false -Recurse -erroraction 'silen
 del "..\Build\Project+\NETBOOST.txt" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
 del "..\Build\Project+\pf\menu3\dnet.cmnu" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
 del "..\Build\Project+\pf\movie" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
+del "..\Build\Project+\pf\stage\switch\SwitchFF.rss" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
 del "..\Build\Project+\pf\sound\netplaylist" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
 del "..\Build\Project+\Source\Netplay" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
 Move-Item "../stBackup/" -Destination "../Build/Project+/st/" -Force
