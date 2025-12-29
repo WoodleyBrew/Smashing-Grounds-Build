@@ -80,8 +80,13 @@ $randomPath = "..\Build\Project+\Source\Netplay\Net-Random.asm"
 
 #RSBE01.txt
 $rsbe01Path = "..\Build\Project+\RSBE01.txt"
-$strapcode = Select-String -Path $rsbe01Path -Pattern "046CADE8"
-if ($strapcode -eq $null)
-{
-	(Get-Content $rsbe01Path).replace("80078E14", "80078E14`r`n* 046CADE8 48000298") | Set-Content $rsbe01Path
-}
+$strapCode = Get-Content $rsbe01Path
+$strapCode[45] += "`r`n"
+$strapCode[45] += "`r`n##########################################"
+$strapCode[45] += "`r`n[Project+] Skip strap screen [PyotrLuzhin]"
+$strapCode[45] += "`r`n##########################################"
+$strapCode[45] += "`r`n"
+$strapCode[45] += 'op b 0x298		@ $806CADE8'
+$strapCode[45] += "`r`n"
+$strapCode | Set-Content $rsbe01Path
+

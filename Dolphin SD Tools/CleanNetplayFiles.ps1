@@ -27,8 +27,13 @@ del "../zssBackup" -Confirm:$false -Recurse -erroraction 'silentlycontinue'
 
 #RSBE01.txt
 $rsbe01Path = "..\Build\Project+\RSBE01.txt"
-$strapcode = Select-String -Path $rsbe01Path -Pattern "046CADE8"
-if ($strapcode -ne $null)
-{
-	(Type "..\Build\Project+\RSBE01.txt") -notmatch "^* 046CADE8 48000298$" | Set-Content "..\Build\Project+\RSBE01.txt"
-}
+$strapCode = Get-Content $rsbe01Path
+$strapCode[45] -= "`r`n"
+$strapCode[45] -= "`r`n##########################################"
+$strapCode[45] -= "`r`n[Project+] Skip strap screen [PyotrLuzhin]"
+$strapCode[45] -= "`r`n##########################################"
+$strapCode[45] -= "`r`n"
+$strapCode[45] -= 'op b 0x298		@ $806CADE8'
+$strapCode[45] -= "`r`n"
+$strapCode | Set-Content $rsbe01Path
+
