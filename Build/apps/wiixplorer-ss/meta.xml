@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="260">
+  <name>WiiXplorer SS</name>
+  <coder>Diego</coder>
+  <contributors>Dimok</contributors>
+  <version>260</version>
+  <release_date>20220403</release_date>
+  <no_ios_reload/>
+  <ahb_access/>
+  <short_description>Wii File Browser</short_description>
+  <long_description>A multi device file explorer for the Wii
+Features:
+- Standard screen mode is now wider.
+- Removed Deflicker filtering.
+- Attractive pointer.
+- Added sound effect when going through pictures.
+- Changed up some of the graphics in the image viewer to be less intrusive.
+
+  </long_description>
+</app>

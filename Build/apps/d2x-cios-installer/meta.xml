@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<app version="1">
+	<name>d2x cIOS installer</name>
+	<coder>dragbe</coder>
+	<short_description>Custom IOS installer</short_description>
+	<long_description>The official homebrew app to install the d2x cIOS.
+
+Home:
+https://github.com/wiidev/d2x-cios</long_description>
+	<arguments>
+		<arg>--remove-cache</arg>
+	</arguments>
+	<no_ios_reload/>
+	<!-- This version supports Wiimotes with built-in MotionPlus -->
+	<version>3.1-mod</version>
+	<release_date>20150921133532</release_date>
+</app>
