@@ -1998,8 +1998,8 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": null,
-        "Height": null
+        "Width": 140,
+        "Height": 110
       },
       "Format": 0,
       "FirstOnly": false,
