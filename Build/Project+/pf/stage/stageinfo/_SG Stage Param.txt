@@ -332,3 +332,80 @@ Luigis_Mansion_MR_04.param
 	STGLUIGISMANSION_MR_LM_PICTO.pac
 	st_final.rel
 	Luigis_Mansion_SG.tlst
+
+################
+Metal_Cavern.param
+
+	[Substages / RandomVariance]
+	- STGMETALCAVERN_00.pac
+	- STGMETALCAVERN_00.pac
+
+	st_final_substage.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_R.param
+
+	STGMETALCAVERN_R_MC_UNDERGROUND.pac
+	st_final.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_L.param
+
+	STGMETALCAVERN_MR_MC_N64.pac
+	st_final.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_Z.param
+
+	STGPOKEFLOATS_Z_MC_TREASURETOWN.pac
+	st_battle_NoShadowRotate.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_ML_00.param
+
+	STGMETALCAVERN_ML_N64.pac
+	st_final.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_ML_01.param
+
+	[Substages / RandomVariance]
+	- STGMETALCAVERN_Z_64_REMAKE.pac
+	- STGMETALCAVERN_Z_64_REMAKE.pac
+
+	st_final_substage.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_ML_02.param
+
+	STGMETALCAVERN_L_MARIOBROS.pac
+	st_famicom.rel
+	_vBrawl Nintendo_Retro.tlst
+	SFX / GFX: 0x0062 / 0x0032
+	MemoryAllocation: 0x100000 (1048576 bytes)
+	Flags: Flat, FixedCamera
+
+################
+Metal_Cavern_MR_00.param --- ..MR_02.param
+
+	Duplicates of Metal_Cavern R, L, Z
+
+################
+Metal_Cavern_MR_03.param
+
+	STGMUSHROOMKINGDOM_R_MC_GROUND.pac
+	st_final.rel
+	_vBrawl Mario.tlst
+
+################
+Metal_Cavern_MR_04.param
+
+	STGHYRULECASTLE_L_MC_GANONCASTLE.pac
+	st_palutena.rel
+	_vBrawl Zelda.tlst

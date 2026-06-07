@@ -41,3 +41,14 @@ L: Luigis_Mansion_L.param
 Z: Luigis_Mansion_Z.param
 L+Start List: Luigis_Mansion_ML_00 & ..ML_01.param
 R+Start List: Luigis_Mansion_MR_00 --- ..MR_03.param
+
+
+################
+05.asl - 12 entries
+
+Base: Metal_Cavern.param
+R: Metal_Cavern_R.param
+L: Metal_Cavern_L.param
+Z: Metal_Cavern_Z.param
+L+Start List: Metal_Cavern_ML_00 --- ..ML_02.param
+R+Start List: Metal_Cavern_MR_00 --- ..MR_04.param
