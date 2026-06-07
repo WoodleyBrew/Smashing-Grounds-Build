@@ -1,0 +1,43 @@
+################
+01.asl - 18 entries
+
+Base: Battlefield.param
+R: Battlefield_R.param
+L: Battlefield_L.param
+Z: Battlefield_Z.param
+L+Start List: Battlefield_ML_XX.param
+R+Start List: Battlefield_MR_00.param --- ..MR_11.param
+Event: Battlefield_EVENT_MATCH
+
+
+################
+02.asl - 14 entries
+
+Base: Final_Destination.param
+R: Final_Destination_R.param
+L: Final_Destination_L.param
+Z: Final_Destination_Z.param
+L+Start List: Final_Destination_ML_00.param & ..ML_01.param
+R+Start List: Final_Destination_MR_00.param --- ..MR_07.param
+
+
+################
+03.asl - 10 entries
+
+Base: Delfino_Secret.param
+R: Delfino_Secret_R.param
+L: Delfino_Secret_L.param
+Z: Delfino_Secret_Z.param
+L+Start List: Delfino_Secret_ML_00.param
+R+Start List: Delfino_Secret_MR_00.param --- ..MR_04.param
+
+
+################
+04.asl - 10 entries
+
+Base: Luigis_Mansion.param
+R: Luigis_Mansion_R.param
+L: Luigis_Mansion_L.param
+Z: Luigis_Mansion_Z.param
+L+Start List: Luigis_Mansion_ML_00 & ..ML_01.param
+R+Start List: Luigis_Mansion_MR_00 --- ..MR_03.param
