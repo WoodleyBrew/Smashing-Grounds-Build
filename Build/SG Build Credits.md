@@ -14,7 +14,7 @@ Raisin Ruins - Originally found here: https://gamebanana.com/mods/406311 | **Yor
 
 
 
-Delfino Mansion - Borrowed from Wisconsin P+ build, https://bsky.app/profile/wiscopm.bsky.social/post/3m3v2hltftk2h / https://www.mediafire.com/file/ke2cs78rim8vmsu | **mawwwk**
+Delfino & Pictochat Mansion - Borrowed from Wisconsin P+ build, https://bsky.app/profile/wiscopm.bsky.social/post/3m3v2hltftk2h / https://www.mediafire.com/file/ke2cs78rim8vmsu | **mawwwk**
 
 
 
@@ -60,9 +60,13 @@ Flat Yohshi's Island - **Motobug**
 
 Skins -
 
+Cowboy Diddy Kong - https://gamebanana.com/mods/403455 **| Chucklez**
 
 
-All non-vanilla skins were on build prior to me taking over the updates | **Motobug,** with definitely many more as unsure exact origins of each skin 
+Chef Olimar - Borrowed from Illinois P+ build | **ilikepizza107, Ajay3450, RosiYY**
+
+
+All other non-vanilla skins were on build prior to me taking over the updates | **Motobug,** with definitely many more as unsure exact origins of each skin 
 
 
 
