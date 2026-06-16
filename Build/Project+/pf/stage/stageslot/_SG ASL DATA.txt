@@ -1,11 +1,11 @@
 ################
-01.asl - 18 entries
+01.asl - 19 entries
 
 Base: Battlefield.param
 R: Battlefield_R.param
 L: Battlefield_L.param
 Z: Battlefield_Z.param
-L+Start List: Battlefield_ML_XX.param
+L+Start List: Battlefield_ML_00 & ..01.param
 R+Start List: Battlefield_MR_00.param --- ..MR_11.param
 Event: Battlefield_EVENT_MATCH
 
@@ -52,3 +52,100 @@ L: Metal_Cavern_L.param
 Z: Metal_Cavern_Z.param
 L+Start List: Metal_Cavern_ML_00 --- ..ML_02.param
 R+Start List: Metal_Cavern_MR_00 --- ..MR_04.param
+
+
+################
+06.asl - 11 entries
+
+Base: Bowser_Castle.param
+R: Bowser_Castle_R.param
+L: Bowser_Castle_L.param
+Z: Bowser_Castle_Z.param
+L+Start List: Bowser_Castle_ML_00.param
+R+Start List: Bowser_Castle_MR_00 --- ..MR_05.param
+
+
+################
+07.asl - 4 entries
+
+Base: Jungle_Japes.param
+R: Jungle_Japes_R.param
+L: Jungle_Japes_L.param
+Z: Jungle_Japes_Z.param
+
+
+################
+08.asl - 6 entries
+
+Base: Rumble_Falls.param
+R: Rumble_Falls_R.param
+L+Star List: Rumble_Falls_ML_00 --- ..ML_03.param
+
+
+################
+09.asl - 12 entries
+
+Base: Temple_of_Time.param
+R: Temple_of_Time_R.param
+L: Temple_of_Time_L.param
+Z: Temple_of_Time_Z.param
+L+Star List: Temple_of_Time_ML_00 & ..ML_01.param
+R+Start List: Temple_of_Time_MR_00 --- ..MR_04.param
+Event: Event_31.param
+
+
+################
+33.asl - 2 entries
+
+Base: Hyrule_Castle.param
+L: Hyrule_Castle_L.param
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+################
+2B.asl - 5 entries
+
+Base: Kongo_Jungle.param
+R: Kongo_Jungle_R.param
+L: Kongo_Jungle_L.param
+Z: Kongo_Jungle_Z.param
+L+Start List: Kongo_Jungle_ML_00.param
+
