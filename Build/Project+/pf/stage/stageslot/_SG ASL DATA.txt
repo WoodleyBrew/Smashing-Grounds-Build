@@ -1,3 +1,7 @@
+#############################################################################################
+Unlike the vanilla .txt file this is in order of BrawlInstaller instead of numerical order
+#############################################################################################
+
 ################
 01.asl - 19 entries
 
@@ -99,6 +103,16 @@ Event: Event_31.param
 
 Base: Hyrule_Castle.param
 L: Hyrule_Castle_L.param
+
+################
+49.asl - 4 entries
+
+Base: Ceres_Space_Colony.param
+R: Ceres_Space_Colony_R.param
+L: Ceres_Space_Colony_L.param
+Z: Ceres_Space_Colony_Z.param
+L+Star List: Ceres_Space_Colony_ML_00.param
+R+Start List: Ceres_Space_Colony_MR_00 & ..MR_01.param
 
 
 
