@@ -40,7 +40,7 @@ Battlefield_ML_XX.param
 ################
 Battlefield_MR_00.param --- ..MR_02.param
 
-	Duplicates of Battlefield R, L, Z
+	Duplicates of Battlefield R, L, Z (Some different .tslt)
 
 ################
 Battlefield_MR_03.param
@@ -178,7 +178,7 @@ Final_Destination_ML_01.param
 ################
 Final_Destination_MR_00.param --- ..MR_02.param
 
-	Duplicates of Final_Destination R, L, Z
+	Duplicates of Final_Destination R, L, Z (Some different .tslt)
 
 ################
 Final_Destination_MR_03.param
@@ -261,7 +261,7 @@ Delfino_Secret_ML_00.param
 ################
 Delfino_Secret_MR_00.param --- ..MR_02.param
 
-	Duplicates of Delfino_Secret R, L, Z
+	Duplicates of Delfino_Secret R, L, Z (Some different .tslt)
 
 ################
 Delfino_Secret_MR_03.param
@@ -324,7 +324,7 @@ Luigis_Mansion_ML_01.param
 ################
 Luigis_Mansion_MR_00.param --- ..MR_02.param
 
-	Duplicates of Luigis_Mansion R, L, Z
+	Duplicates of Luigis_Mansion R, L, Z (Some different .tslt)
 
 ################
 Luigis_Mansion_MR_04.param
@@ -394,7 +394,7 @@ Metal_Cavern_ML_02.param
 ################
 Metal_Cavern_MR_00.param --- ..MR_02.param
 
-	Duplicates of Metal_Cavern R, L, Z
+	Duplicates of Metal_Cavern R, L, Z (Some different .tslt)
 
 ################
 Metal_Cavern_MR_03.param
@@ -452,7 +452,7 @@ Bowser_Castle_Z.param
 ################
 Bowser_Castle_MR.param --- ..MR_02.param
 
-	Duplicates of Bowser_Castle R, L, Z
+	Duplicates of Bowser_Castle R, L, Z (Some different .tslt)
 
 ################
 Bowser_Castle_MR_03.param
@@ -599,7 +599,7 @@ Temple_of_Time_Z.param
 ################
 Temple_of_Time_MR_00.param --- ..MR_02.param
 
-	Duplicates of Temple_of_Time R, L, Z
+	Duplicates of Temple_of_Time R, L, Z (Some different .tslt)
 
 ################
 Temple_of_Time_MR_03.param
@@ -690,7 +690,7 @@ Ceres_Space_Colony_Z.param
 ################
 Ceres_Space_Colony_MR_00.param & ..MR_01.param
 
-	Duplicates of Ceres_Space_Colony R & L
+	Duplicates of Ceres_Space_Colony R & L (Some different .tslt)
 
 ################
 Ceres_Space_Colony_ML_00.param
@@ -699,9 +699,58 @@ Ceres_Space_Colony_ML_00.param
 	st_final.rel
 	_vBrawl Metroid.tlst
 
+################
+Frigate_Husk.param
 
+	STGFRIGATEHUSK.pac
+	st_final.rel
+	Frigate_Husk_SG.tlst
+	SFX / GFX: 0x0056 / 0x0032
 
+################
+Frigate_Husk_R.param
 
+	STGFRIGATEHUSK_R_FH_PHENDRANA.pac
+	st_phendrana.rel
+	Frigate_Husk_SG.tlst
+	SFX / GFX: 0x0053 / 0x0032
+		053_FrigateHusk_R_FH_Phendrana.sawnd
+
+################
+Frigate_Husk_L.param
+
+	STGCERESSPACECOLONY_R_FH_COLONY.pac
+	st_final.rel
+	Frigate_Husk_SG.tlst
+
+################
+Frigate_Husk_Z.param
+
+	STGFRIGATEHUSK_Z_FH_MEADOW.pac
+	st_final.rel
+	Frigate_Husk_SG.tlst
+	SFX / GFX: 0x0056 / 0x0032
+
+################
+Frigate_Husk_ML_00.param
+
+	STGFRIGATEHUSK_L_ORPHEON.pac
+	st_orpheon.rel
+	_vBrawl Metroid.tlst
+	SFX / GFX: 0x0056 / 0x0032
+
+################
+Frigate_Husk_ML_01.param
+
+	STGORPHEON.pac
+	st_orpheon.rel
+	_vBrawl Metroid.tlst
+	SFX / GFX: 0x0056 / 0x0032
+
+################
+Frigate_Husk_MR_00.param --- ..MR_02.param
+
+	Duplicates of Frigate_Husk R, L, Z (Some different .tslt)
 
 
 

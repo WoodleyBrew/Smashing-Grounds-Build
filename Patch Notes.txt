@@ -12,6 +12,9 @@ UI / Aesthetics:
 
 Skins:
 
+	* DeDeDe	
+		- Classic DeDeDe Z-alt added as a regular costume
+
 	* Olimar
 
 		- Chef Olimar (and team colors) skin added to build

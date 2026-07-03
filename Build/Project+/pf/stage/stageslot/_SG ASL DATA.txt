@@ -105,7 +105,7 @@ Base: Hyrule_Castle.param
 L: Hyrule_Castle_L.param
 
 ################
-49.asl - 4 entries
+49.asl - 7 entries
 
 Base: Ceres_Space_Colony.param
 R: Ceres_Space_Colony_R.param
@@ -114,7 +114,15 @@ Z: Ceres_Space_Colony_Z.param
 L+Star List: Ceres_Space_Colony_ML_00.param
 R+Start List: Ceres_Space_Colony_MR_00 & ..MR_01.param
 
+################
+0C.asl - 11 entries
 
+Base: Frigate_Husk.param
+R: Frigate_Husk_R.param
+L: Frigate_Husk_L.param
+Z: Frigate_Husk_Z.param
+L+Star List: Frigate_Husk_ML_00.param & ..ML_01.param
+R+Start List: Frigate_Husk_MR_00 --- ..MR_04.param
 
 
 
