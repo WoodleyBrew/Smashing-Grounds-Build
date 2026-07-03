@@ -752,10 +752,54 @@ Frigate_Husk_MR_00.param --- ..MR_02.param
 
 	Duplicates of Frigate_Husk R, L, Z (Some different .tslt)
 
+################
+Yoshis_Island.param
 
+	STGYOSHISISLAND_R_YI_TROPICAL.pac
+	st_final.rel
+	Yoshis_Island_SG.tlst
 
+################
+Yoshis_Island_R.param
 
+	STGYOSHISISLAND.pac
+	st_crayon_noshyguy_ht.rel
+	Yoshis_Island_SG.tlst
 
+################
+Yoshis_Island_L.param
+
+	STGPIRATESHIP_R_YI_ANCIENTCASTLE.pac
+	st_final.rel
+	Yoshis_Island_SG.tlst
+
+################
+Yoshis_Island_Z.param
+
+	STGHANENBOW_R_YI_HANENBOW.pac
+	st_plankton.rel
+	Yoshis_Island_SG.tlst
+	SFX / GFX: 0x0068 / 0x0056
+
+################
+Yoshis_Island_ML_00.param
+
+	STGYOSHISISLAND_L_TROPICAL.pac
+	st_crayon.rel
+	Yoshis_Island_SG.tlst
+	SFX / GFX: 0x004C / 0x0032
+
+################
+Yoshis_Island_MR_00.param --- ..MR_02.param
+
+	Duplicates of Yoshis_Island R, L, Z (Some different .tslt)
+
+################
+Yoshis_Island_MR_03.param
+
+	STGYOSHISISLAND_SEASIDE.pac
+	st_final_substage.rel
+	Yoshis_Island_SG.tlst
 
 
 

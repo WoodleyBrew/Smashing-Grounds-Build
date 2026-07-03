@@ -124,6 +124,15 @@ Z: Frigate_Husk_Z.param
 L+Star List: Frigate_Husk_ML_00.param & ..ML_01.param
 R+Start List: Frigate_Husk_MR_00 --- ..MR_04.param
 
+################
+0D.asl - 9 entries
+
+Base: Yoshis_Island.param
+R: Yoshis_Island_R.param
+L: Yoshis_Island_L.param
+Z: Yoshis_Island_Z.param
+L+Star List: Yoshis_Island_ML_00.param
+R+Start List: Yoshis_Island_MR_00 --- ..MR_03.param
 
 
 

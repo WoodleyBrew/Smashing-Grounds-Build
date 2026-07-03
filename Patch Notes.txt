@@ -32,6 +32,8 @@ Stage Select Screen:
 
 	* All 1:1 alts from Vanilla and prior SG Builds have been moved to either L,R,Z or R+Start alts on a stage's slot. For example: Spear Pillar's R alt, a BF 1:1, has been removed from Spear Pillar and added to Battlefield as a R+Start alt. Several 1:1 alts for SV, GHZ, and DL have been removed as they did not function with the hazards toggle (and therefore weren't legal 1:1's)
 
+	* All legal stages contain L, R, and Z alts that are 1:1's of the regular stage. In addition these alts are available in the R+Start list, able to be used with the Random Alt toggle option in the debug menu!
+
 	* Many stages from Vanilla that were missing have returned, as either L+Start alts or standard button alts on stages.
 
 		- L+Start alts always contain alternative stages, usually for fun / non-competitive stages
