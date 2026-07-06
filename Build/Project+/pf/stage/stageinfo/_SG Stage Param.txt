@@ -1234,6 +1234,148 @@ Fountain_of_Dreams_MR_03.param
 	st_dxfountain.rel
 	_vBrawl Ice Climber.tlst
 
+################
+Tiny_FD.param
+
+	STGTINYFD.pac
+	st_final.rel
+	Final_Destination_SG
+
+################
+Tiny_FD_L.param
+
+	STGTINYFD_AZPM_MOON.pac
+	st_final.rel
+	Final_Destination_SG
+
+################
+Tiny_FD_R.param
+
+	STGTINYFD_AZPM_SUN.pac
+	st_final.rel
+	Final_Destination_SG
+
+################
+Tiny_FD_MR_00.param & ..MR_01.param
+
+	Duplicates of L & R params
+
+################
+Smashville.param
+
+	[Substages / Normal]
+	- STGSMASHVILLE_00_MORNING.pac
+	- STGSMASHVILLE_01_NOON.pac
+	- STGSMASHVILLE_02_DUSK.pac
+	- STGSMASHVILLE_03_NIGHT.pac
+	- STGSMASHVILLE_03_NIGHT.pac
+	- STGSMASHVILLE_03_NIGHT.pac
+	- STGSMASHVILLE_04_MIDNIGHT.pac
+	- STGSMASHVILLE_04_MIDNIGHT.pac
+
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+	Flags: OldSubstage
+
+################
+Smashville_L.param
+
+	STGSMASHVILLE_L_SV_SAKURA.pac
+	st_smashville_ht.rel
+	Smashville_Sakura.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_R.param
+
+	STGSMASHVILLE_R_SV_BEACH.pac
+	st_smashville_ht.rel
+	Smashville_Tropical.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_Z.param
+
+	STGSMASHVILLE_Z_SV_OCEAN.pac
+	st_smashville_ht.rel
+	Smashville_Tropical.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_00.param
+
+	STGSMASHVILLE_00_MORNING.pac
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_01.param
+
+	STGSMASHVILLE_01_NOON.pac
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_02.param
+
+	STGSMASHVILLE_02_DUSK.pac
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_03.param
+
+	STGSMASHVILLE_03_NIGHT.pac
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_04.param
+
+	STGSMASHVILLE_04_MIDNIGHT.pac
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_05.param
+
+	STGSMASHVILLE_03_NIGHT.pac
+	st_smashville_ht.rel
+	Smashville_Concert.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_06.param
+
+	STGSMASHVILLE_R_SV_BEACH.pac
+	st_smashville_ht.rel
+	Smashville_Concert.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_07.param
+
+	STGSMASHVILLE_L_SV_SAKURA.pac
+	st_smashville_ht.rel
+	Smashville_Concert.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_08.param
+
+	STGSMASHVILLE_Z_SV_OCEAN.pac
+	st_smashville_ht.rel
+	Smashville_Concert.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+
+
 
 
 

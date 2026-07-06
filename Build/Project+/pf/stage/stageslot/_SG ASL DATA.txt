@@ -224,6 +224,22 @@ Z: Fountain_of_Dreams_Z.param
 L+Start List: Fountain_of_Dreams_ML_00.param & ..ML_01.param
 R+Start List: Fountain_of_Dreams_MR_00.param --- ..MR_03.param
 
+################
+20.asl - 5 entries
+
+Base: Tiny_FD.param
+R: Tiny_FD_R.param
+L: Tiny_FD_L.param
+R+Start List: Tiny_FD_MR_00.param & ..MR_01.param
+
+################
+21.asl - 13 entries
+
+Base: Smashville.param
+R: Smashville_R.param
+L: Smashville_L.param
+Z: Smashville_Z.param
+R+Start List: Smashville_MR_00.param --- ..MR_08.param
 
 
 
