@@ -134,11 +134,42 @@ Z: Yoshis_Island_Z.param
 L+Star List: Yoshis_Island_ML_00.param
 R+Start List: Yoshis_Island_MR_00 --- ..MR_03.param
 
+################
+0E.asl - 4 entries
 
+Base: Mini_Explain.param
+L+Start List: Mini_Explain_ML_00 --- ..ML_02.param
 
+################
+13.asl - 4 entries
 
+Base: Lylat_Cruise.param
+R: Lylat_Cruise_R.param
+L: Lylat_Cruise_L.param
+L+Start List: Lylat_Cruise_ML_00.param
 
+################
+14.asl - 1 entry
 
+Base: Gaur_Plains.param
+
+################
+15.asl - 2 entries
+
+Base: Mt_Pyre.param
+R: Mt_Pyre_SSZ.param
+
+################
+16.asl - 3 entries
+
+Base: Dead_Line.param
+R: Dead_Line_R.param
+L: Dead_Line_L.param
+
+################
+17.asl - 2 entries
+Base: Great_Bay.param
+R: Great_Bay_R.param
 
 
 

@@ -801,11 +801,229 @@ Yoshis_Island_MR_03.param
 	st_final_substage.rel
 	Yoshis_Island_SG.tlst
 
+################
+Mini_Explain.param
+
+	STGMINI_EXPLAIN.pac
+	st_dreamland64_ht.rel
+	Dream_Land_SG.tlst
+
+################
+Mini_Explain_ML_00.param
+
+	STGMINI_EXPLAIN_LARGE.pac
+	st_dreamland64_ht.rel
+	Dream_Land_SG.tlst
+
+################
+Mini_Explain_ML_01.param
+
+	Duplicate of Mini_Explain.param
+
+################
+Mini_Explain_ML_00.param
+
+	MINI_EXPLAIN_RIGHT.pac
+	st_dreamland64_ht.rel
+	Dream_Land_SG.tlst
+
+################
+Lylat_Cruise.param
+
+	STGLYLATCRUISE_Z_FLAT.pac
+	st_palutena.rel
+	_vBrawl Star Fox.tlst
+	Flags: SlowStart
+
+################
+Lylat_Cruise_L.param
+
+	STGLYLATCRUISE_L_METEO.pac
+	st_final.rel
+	_vBrawl Star Fox.tlst
+	SFX / GFX: 0x0058 / 0x0044
+
+################
+Lylat_Cruise_R.param
+
+	[Substages / DualLoad]
+	- STGLYLATCRUISE.pac
+	- STGSTARFOX_ASTEROID.pac
+	- STGSTARFOX_BATTLESHIP.pac
+	- STGSTARFOX_CORNERIA.pac
+	- STGSTARFOX_SPACE.pac
+
+	st_starfox_norotate.rel
+	_vBrawl Star Fox.tlst
+	SFX / GFX: 0x0058 / 0x0044
+	MemoryAllocation: 0x334000 (3358720 bytes)
+	Flags: DualLoad, DualShuffle
+
+################
+Lylat_Cruise_ML_00.param
+
+	[Substages / DualLoad]
+	- STGLYLATCRUISE.pac
+	- STGSTARFOX_ASTEROID.pac
+	- STGSTARFOX_BATTLESHIP.pac
+	- STGSTARFOX_CORNERIA.pac
+	- STGSTARFOX_SPACE.pac
+
+	st_starfox.rel
+	_vBrawl Star Fox.tlst
+	SFX / GFX: 0x0058 / 0x0044
+	MemoryAllocation: 0x334000 (3358720 bytes)
+	Flags: DualLoad, DualShuffle
+
+################
+Gaur_Plains.param
+
+	STGGAURPLAINS.pac
+	st_palutena.rel
+	Smashville_SG.tlst
+
+################
+Mt_Pyre.param
+
+	STGMTPYRE.pac
+	st_battle_noshadowrotate.rel
+	Luigis_Mansion_SG.tlst
+
+################
+Mt_Pyre_SSZ.param
+
+	STGMTPYRE_R_SSZ.pac
+	st_final.rel
+	Green_Hill_Zone_SG.tlst
+
+################
+Dead_Line.param
+
+	STGDEADLINE.pac
+	st_greenhill_ht.rel
+	Green_Hill_Zone_SG.tlst
+
+################
+Dead_Line_L.param
+
+	STGDEADLINE_L_CHEMICALPLANT.pac
+	st_greenhill_act2.rel
+	Green_Hill_Zone_SG.tlst
+
+################
+Dead_Line_R.param
+
+	STGDEADLINE_R_DED_CHEMICALPLANT.pac
+	st_greenhill_ht.rel
+	Green_Hill_Zone_SG.tlst
+
+################
+Great_Bay.param
+
+	STGCLOCKTOWN_Z_GREATBAY.pac
+	st_junglejapes_noswim.rel
+	_vBrawl Zelda.tlst
+
+################
+Great_Bay_R.param
+
+	STGCLOCKTOWN_Z_GREATBAY.pac
+	st_dxgarden.rel
+	_vBrawl Zelda.tlst
 
 
 
 
 
+
+
+
+
+
+
+
+################
+Wario_Land.param
+
+	STGWARIOLAND_SG.pac
+	st_final.rel
+	Wario_Land_SG.tlst
+
+################
+Wario_Land_R.param
+
+	STGWARIOLAND_R_WL_WARIOCASTLE.pac
+	st_final.rel
+	Wario_Land_SG.tlst
+
+################
+WarioWare_R.param
+
+	STGWARIOWARE_R_WL_ASHLEY.pac
+	st_final.rel
+	Wario_Land_SG.tlst
+
+################
+Wario_Land_Z.param
+
+	STGWARIOLAND_Z_WL_WALUIGISTADIUM.pac
+	st_final.rel
+	Wario_Land_SG.tlst
+
+################
+Wario_Land_ML_00.param
+
+	STGWARIOLAND_L_WARIOCASTLE.pac
+	st_dxgarden.rel
+	Wario_Land_SG.tlst
+	SFX / GFX: 0x006A / 0x005C
+
+################
+Wario_Land_MR_00.param --- ..MR_02.param
+
+	Duplicates of Wario_Land R, L, Z (Some different .tslt)
+
+################
+Wario_Land_MR_03.param
+
+	STGWARIOWARE_L_WL_DISCO.pac
+	st_final.rel
+	Wario_Land_SG.tlst
+
+################
+Wario_Land_MR_04.param
+
+	STGRAINBOWCRUISE_R_WL_CRUISE.pac
+	st_final.rel
+	_vBrawl Mario.tlst
+
+################
+Wario_Land_MR_05.param
+
+	STGMINECARTMADNESS_R_WL_FEARFACTORY.pac
+	st_final.rel
+	_vBrawl Donkey Kong.tlst
+
+################
+Wario_Land_MR_06.param
+	STGJUNGLEJAPES_R_WL_KONGOFALLS.pac
+	st_final.rel
+	_vBrawl Donkey Kong.tlst
+	SFX / GFX: 0x006A / 0x005C
+
+################
+Wario_Land_MR_07.param
+
+	STGHYRULECASTLE_R_WL_HYRULE.pac
+	st_greenhill_act2.rel
+	_vBrawl Zelda.tlst
+
+################
+Wario_Land_MR_08.param
+
+	STGBELLTOWER_L_WL_WHIRLISLANDS.pac
+	st_final.rel
+	_vBrawl Pokemon.tlst
 
 
 
