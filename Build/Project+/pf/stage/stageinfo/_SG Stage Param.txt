@@ -931,16 +931,95 @@ Great_Bay_R.param
 	st_dxgarden.rel
 	_vBrawl Zelda.tlst
 
+################
+Yoshis_Island_Flat.param
 
+	STGYOSHISISLAND_FLAT.pac
+	st_crayon_noshyguy_nosfx.rel
+	Yoshis_Flat_Story_SG.tlst
 
+################
+Yoshis_Island_Flat.param
 
+	STGYOSHISISLAND_Z_PROJECTM.pac
+	st_crayon.rel
+	Yoshis_Flat_Story_SG.tlst
+	SFX / GFX: 0x004C / 0x0032
 
+################
+Castle_Siege.param
 
+	[Substages / DualLoad]
+	- STGCASTLESIEGE.pac
+	- STGCASTLESIEGE_SBG.pac
 
+	st_castlesiege_notransform.rel
+	_vBrawl Fire Emblem.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x4B3300 (4928256 bytes)
+	Flags: DualLoad
 
+################
+Castle_Siege_R.param
 
+	STGSUBSPACE_L_CS_RUINS.pac
+	st_final.rel
+	_vBrawl Fire Emblem.tlst
 
+################
+Castle_Siege_L.param
 
+	[Substages / DualLoad]
+	- STGCASTLESIEGE.pac
+	- STGEMBLEM_00.pac
+
+	st_castlesiege_notransform.rel
+	_vBrawl Fire Emblem.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x483300 (4731648 bytes)
+	Flags: DualLoad
+
+################
+Castle_Siege_Z.param
+
+	STGCASTLESIEGE_L_GUIDANCE.pac
+	st_final.rel
+	_vBrawl Fire Emblem.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x2000 (8192 bytes)
+
+################
+Castle_Siege_ML_00.param
+
+	[Substages / DualLoad]
+	- STGCASTLESIEGE.pac
+	- STGEMBLEM_02.pac
+
+	st_castlesiege_02.rel
+	_vBrawl Fire Emblem.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x483300 (4731648 bytes)
+	Flags: DualLoad
+
+################
+Castle_Siege_ML_01.param
+
+	[Substages / DualLoad]
+	- STGEMBLEM.pac
+	- STGEMBLEM_00.pac
+	- STGEMBLEM_01.pac
+	- STGEMBLEM_02.pac
+
+	st_castlesiege.rel
+	_vBrawl Fire Emblem.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x483300 (4731648 bytes)
+	Flags: DualLoad
+
+################
+Castle_Siege_ML_00.param
+
+	Duplicates of Castle_Siege R, L, Z (Some different .tslt)
 
 ################
 Wario_Land.param
@@ -1025,6 +1104,48 @@ Wario_Land_MR_08.param
 	st_final.rel
 	_vBrawl Pokemon.tlst
 
+################
+Distant_Planet.param
+
+	STGDISTANTPLANET.pac
+	st_earth.rel
+	_vBrawl Pikmin.tlst
+	SFX / GFX: 0x0060 / 0x004E
+
+################
+Distant_Planet_R.param
+
+	STGDISTANTPLANET_R_DP_VALLEY.pac
+	st_earth.rel
+	_vBrawl Pikmin.tlst
+	SFX / GFX: 0x0060 / 0x004E
+
+################
+Distant_Planet_L.param
+
+	STGFOURSIDE_Z_DP_FOURSIDE.pac
+	st_earth.rel
+	_vBrawl Pikmin.tlst
+
+################
+Distant_Planet_Z.param
+
+	STGSUBSPACE_Z_DP_FOREST.pac
+	st_earth.rel
+	_vBrawl Pikmin.tlst
+
+################
+Distant_Planet_ML_00.param
+
+	STGDISTANTPLANET_L_BRAWL.pac
+	st_earth.rel
+	_vBrawl Pikmin.tlst
+	SFX / GFX: 0x0060 / 0x004E
+
+################
+Distant_Planet_MR_00.param --- ..MR_02.param
+
+	Duplicates of Battlefield R, L, Z (Some different .tslt)
 
 
 

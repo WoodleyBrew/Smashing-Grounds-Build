@@ -75,9 +75,16 @@ Music:
 
 		- Devil Forest (Last Bible III) fixed to now loop properly
 
+	* Distant Planet
+			
+		- Added "Jungle Bump (Cruis'n World)"
+
 	* Green Hill Zone
 
 		- Funky Dealer (Who wants to come) has been changed to a zero frequency track, it can be manually selected but will never be randomly chosen by the game
 
 		- Electric Tooth Brush moved from training stage to Green Hill Zone
 
+	* Smashville
+		
+		- Added "Move Me (Ridge Racer Type 4)"

@@ -168,14 +168,45 @@ L: Dead_Line_L.param
 
 ################
 17.asl - 2 entries
+
 Base: Great_Bay.param
 R: Great_Bay_R.param
 
+################
+18.asl - 2 entries
 
+Base: Yoshis_Island_Flat.param
+L+Start List: Yoshis_Island_Flat_ML_00.param
 
+################
+19.asl - 8 entries
 
+Base: Castle_Siege.param
+R: Castle_Siege_R.param
+L: Castle_Siege_L.param
+Z: Castle_Siege_Z.param
+L+Start List: Castle_Siege_ML_00.param & ..ML_01.param
+R+Start List: Castle_Siege_MR_00 & ..MR_01.param
 
+################
+1C.asl - 14 entries
 
+Base: Wario_Land.param
+R: Wario_Land_R.param
+L: Wario_Land_L.param
+Z: Wario_Land_Z.param
+L+Start List: Wario_Land_ML_00.param
+R+Start List: Wario_Land_MR_00.param --- ..MR_08.param
+
+################
+1D.asl - 8 entries
+
+Base: Distant_Planet.param
+R: Distant_Planet_R.param
+L: Distant_Planet_L.param
+Z: Distant_Planet_Z.param
+L+Start List: Distant_Planet_ML_00.param
+R+Start List: Distant_Planet_MR_00.param --- ..MR_02.param
 
 
 
