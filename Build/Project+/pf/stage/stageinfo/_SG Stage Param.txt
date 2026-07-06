@@ -1147,13 +1147,92 @@ Distant_Planet_MR_00.param --- ..MR_02.param
 
 	Duplicates of Battlefield R, L, Z (Some different .tslt)
 
+################
+Skyworld.param
 
+	STGSKYWORLD_SG.pac
+	st_palutena.rel
+	_vBrawl Kid Icarus.tlst
 
+################
+Skyworld_ML_00.param
 
+	STGSKYWORL_P+.pac
+	st_final.rel
+	_vBrawl Kid Icarus.tlst
 
+################
+Skyworld_ML_01.param
 
+	STGSKYWORLD_L_BRAWL.pac
+	st_palutena.rel
+	_vBrawl Kid Icarus.tlst
+	SFX / GFX: 0x0061 / 0x004F
 
+################
+Skyworld_ML_02.param
 
+	STGSKYWORLD_Z_SW_UNDERWORLD.pac
+	st_palutena.rel
+	_vBrawl Kid Icarus.tlst
+	SFX / GFX: 0x0061 / 0x004F
+
+################
+Fountain_of_Dreams.param
+
+	STGFOUNTAINOFDREAMS.pac
+	st_dxfountain.rel
+	Fountain_of_Dreams_SG.tlst
+	SFX / GFX: 0x0200 / 0x0033
+
+################
+Fountain_of_Dreams_R.param
+
+	STGCOOKIECOUNTRY_R_FOD_COOKIE.pac
+	st_dxfountain.rel
+	Fountain_of_Dreams_SG.tlst
+
+################
+Fountain_of_Dreams_L.param
+
+	STGFOUNTAINOFDREAMS_R_FOD_CAVE.pac
+	st_dxfountain.rel
+	Fountain_of_Dreams_SG.tlst
+
+################
+Fountain_of_Dreams_Z.param
+
+	STGCORNERIA_R_FOD_SAURIA.pac
+	st_dxfountain.rel
+	Fountain_of_Dreams_SG.tlst
+	SFX / GFX: 0x006D / 0x0061
+
+################
+Fountain_of_Dreams_ML_00.param
+
+	STGFOUNTAINOFDREAMS_L_SECTONIAGEM.pac
+	st_palutena.rel
+	_vBrawl Kirby.tlst
+
+################
+Fountain_of_Dreams_ML_01.param
+
+	STGFOUNTAINOFDREAMS_Z_GREENGREENS.pac
+	st_dxgreens.rel
+	_vBrawl Kirby.tlst
+	SFX / GFX: 0x006C / 0x005E
+
+################
+Fountain_of_Dreams_MR_00.param --- ..MR_02.param
+
+	Duplicates of Battlefield R, L, Z (Some different .tslt)
+
+################
+Fountain_of_Dreams_MR_03.param
+
+	STGINFINITEGLACIER_R_FOD_SUMMIT.pac
+	st_dxfountain.rel
+	_vBrawl Ice Climber.tlst
 
 
 

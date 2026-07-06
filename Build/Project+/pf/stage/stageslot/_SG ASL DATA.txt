@@ -208,8 +208,21 @@ Z: Distant_Planet_Z.param
 L+Start List: Distant_Planet_ML_00.param
 R+Start List: Distant_Planet_MR_00.param --- ..MR_02.param
 
+################
+1E.asl - 8 entries
 
+Base: Skyworld.param
+L+Start List:Base: Skyworld_ML_00.param --- ..ML_02.param
 
+################
+1F.asl - 10 entries
+
+Base: Fountain_of_Dreams.param
+R: Fountain_of_Dreams_R.param
+L: Fountain_of_Dreams_L.param
+Z: Fountain_of_Dreams_Z.param
+L+Start List: Fountain_of_Dreams_ML_00.param & ..ML_01.param
+R+Start List: Fountain_of_Dreams_MR_00.param --- ..MR_03.param
 
 
 
