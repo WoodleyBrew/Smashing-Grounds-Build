@@ -66,6 +66,9 @@ Stages:
 
 		- Added as it's own slot. Version without swimmable water made as the default, version with swimmable water is still available as the R alt
 
+	* Yoshi's Island
+		- Default skin changed from Seaside Hill to Yoshi's New Island due to common criticism of Seaside Hill's visibility
+
 Music:
 
 	* Compacted music by removing all non custom music tracklists, all non legal stages now have tracklists with music from Vanilla Brawl. No music has been removed from build as SG build prior to this update had zero custom music from Vanilla P+
