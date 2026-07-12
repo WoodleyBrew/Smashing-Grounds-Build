@@ -1,0 +1,98 @@
+HD Textures: 
+
+	* Organized to remove duplicates and other unused textures
+
+UI / Aesthetics:
+
+	* Stage banners, Icons, RSS icons, etc. have been adjusted across the board! Enjoy this new coat of paint on SG build
+
+	* Stage stats previews have been changed to now include color, Red indicates a measurement is on the smaller end, Yellow for middle end, and Green for larger end
+
+	* Replay images have redone, in addition several stages ASL have been altered to allow replay images to load now. Sonic's banner has also been updated to his new pose
+
+Skins:
+
+	* DeDeDe	
+		
+		- Classic DeDeDe Z-alt added as a regular costume
+
+	* Olimar
+
+		- Chef Olimar (and team colors) skin added to build
+
+	* Sonic
+		- Vanilla Purple JetSet skin readded to build, all skins maintain proper color effects on spin moves
+
+	* Wario
+
+		- Crinkler Wario skin will no longer softlock upon using Final Smash
+
+Stage Select Screen:
+
+	* Page layouts have been adjusted to include all stages on build, regardless of which stage preset used all stages will be available to play
+
+	* All 1:1 alts from Vanilla and prior SG Builds have been moved to either L,R,Z or R+Start alts on a stage's slot. For example: Spear Pillar's R alt, a BF 1:1, has been removed from Spear Pillar and added to Battlefield as a R+Start alt. Several 1:1 alts for SV, GHZ, and DL have been removed as they did not function with the hazards toggle (and therefore weren't legal 1:1's)
+
+	* All legal stages contain L, R, and Z alts that are 1:1's of the regular stage. In addition these alts are available in the R+Start list, able to be used with the Random Alt toggle option in the debug menu!
+
+	* Many stages from Vanilla that were missing have returned, as either L+Start alts or standard button alts on stages.
+
+		- L+Start alts always contain alternative stages, usually for fun / non-competitive stages
+
+		- R+Start alts always contain 1:1 stages, Ex: All Battlefield's R+Start alts are 1:1 skins of Battlefield
+
+	* Stock icons now appear on the stage selection screen, these tell you what character a player is playing so you won't have to back out to the CSS to check anymore
+
+Stages:
+
+	* Final Destination
+
+		- Texture edited to include more names of SG attendees in background <3
+
+	* Great Bay
+
+		- Added as it's own slot. Version without swimmable water made as the default, version with swimmable water is still available as the R alt
+
+	* Jungle Japes
+
+		- Version without swimmable water made as the default, version with swimmable water is still available as the R alt
+
+	* Pokémon Stadium 2
+
+		- Jumbotron SFX removed
+
+		- New L-alt! Surf Stadium skin from I Agree: Let's go Surfboarding
+
+		- New Z-alt! NGPR stadium
+
+	* Smashville
+
+		- Cricket, Birds, and UFO SFX removed
+
+		- Geo balloon added to L, R, and Z alts
+
+	* Yoshi's Island
+
+		- Default skin changed from Seaside Hill to Yoshi's New Island due to common criticism of Seaside Hill's visibility
+
+Music:
+
+	* Compacted music by removing all non custom music tracklists, all non legal stages now have tracklists with music from Vanilla Brawl. No music has been removed from build as SG build prior to this update had zero custom music from Vanilla P+
+		
+		- Vanilla Brawl tracklists contain music per franchise, e.g all Vanilla Mario songs are on one tracklist
+
+	* Menu
+
+		- Devil Forest (Last Bible III) fixed to now loop properly
+
+	* Distant Planet
+			
+		- Added "Jungle Bump (Cruis'n World)"
+
+	* Green Hill Zone
+
+		- Funky Dealer (Who wants to come) has been changed to a zero frequency track, it can be manually selected but will never be randomly chosen by the game
+
+	* Smashville
+		
+		- Added "Move Me (Ridge Racer Type 4)"
