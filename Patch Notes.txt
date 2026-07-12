@@ -13,6 +13,7 @@ UI / Aesthetics:
 Skins:
 
 	* DeDeDe	
+		
 		- Classic DeDeDe Z-alt added as a regular costume
 
 	* Olimar
@@ -48,30 +49,36 @@ Stages:
 
 		- Texture edited to include more names of SG attendees in background <3
 
+	* Great Bay
+
+		- Added as it's own slot. Version without swimmable water made as the default, version with swimmable water is still available as the R alt
+
+	* Jungle Japes
+
+		- Version without swimmable water made as the default, version with swimmable water is still available as the R alt
+
+	* Pokémon Stadium 2
+
+		- Jumbotron SFX removed
+
+		- New L-alt! Surf Stadium skin from I Agree: Let's go Surfboarding
+
+		- New Z-alt! NGPR stadium
+
 	* Smashville
 
 		- Cricket, Birds, and UFO SFX removed
 
 		- Geo balloon added to L, R, and Z alts
 
-	* Pokémon Stadium 2
-
-		- Jumbotron SFX removed
-
-	* Jungle Japes
-
-		- Version without swimmable water made as the default, version with swimmable water is still available as the R alt
-
-	* Great Bay
-
-		- Added as it's own slot. Version without swimmable water made as the default, version with swimmable water is still available as the R alt
-
 	* Yoshi's Island
+
 		- Default skin changed from Seaside Hill to Yoshi's New Island due to common criticism of Seaside Hill's visibility
 
 Music:
 
 	* Compacted music by removing all non custom music tracklists, all non legal stages now have tracklists with music from Vanilla Brawl. No music has been removed from build as SG build prior to this update had zero custom music from Vanilla P+
+		
 		- Vanilla Brawl tracklists contain music per franchise, e.g all Vanilla Mario songs are on one tracklist
 
 	* Menu
@@ -85,8 +92,6 @@ Music:
 	* Green Hill Zone
 
 		- Funky Dealer (Who wants to come) has been changed to a zero frequency track, it can be manually selected but will never be randomly chosen by the game
-
-		- Electric Tooth Brush moved from training stage to Green Hill Zone
 
 	* Smashville
 		

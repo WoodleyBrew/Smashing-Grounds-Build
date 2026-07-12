@@ -438,7 +438,7 @@ Forest Frenzy (OMORI)
 
 
 
-**Yoshi's Story \& Flat Yoshi's**
+**Yoshi's Story & Flat Yoshi's**
 
 
 
