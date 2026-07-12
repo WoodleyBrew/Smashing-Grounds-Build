@@ -1944,7 +1944,7 @@
       "Suffix": "",
       "Multiplier": 1,
       "Offset": 0,
-      "SuffixDigits": 3,
+      "SuffixDigits": 2,
       "GroupMultiplier": 1,
       "FilePrefix": "",
       "FileSuffix": "",
@@ -1974,7 +1974,7 @@
         "NodePath": "Misc Data [80]",
         "FileExtension": "pac"
       },
-      "HDImageLocation": "",
+      "HDImageLocation": "BrawlInstaller\\Stage Stats\\",
       "CreateHDTextureFolder": false,
       "ModelPath": null,
       "PatSettings": [
@@ -1998,10 +1998,10 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": 140,
-        "Height": 110
+        "Width": 280,
+        "Height": 220
       },
-      "Format": 0,
+      "Format": 14,
       "FirstOnly": false,
       "SeparateFiles": false,
       "CompressionType": 0,

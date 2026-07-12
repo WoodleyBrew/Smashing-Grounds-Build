@@ -1,0 +1,273 @@
+#############################################################################################
+Unlike the vanilla .txt file this is in order of BrawlInstaller instead of numerical order
+#############################################################################################
+
+################
+01.asl - 19 entries
+
+Base: Battlefield.param
+R: Battlefield_R.param
+L: Battlefield_L.param
+Z: Battlefield_Z.param
+L+Start List: Battlefield_ML_00 & ..01.param
+R+Start List: Battlefield_MR_00.param --- ..MR_11.param
+Event: Battlefield_EVENT_MATCH
+
+
+################
+02.asl - 14 entries
+
+Base: Final_Destination.param
+R: Final_Destination_R.param
+L: Final_Destination_L.param
+Z: Final_Destination_Z.param
+L+Start List: Final_Destination_ML_00.param & ..ML_01.param
+R+Start List: Final_Destination_MR_00.param --- ..MR_07.param
+
+
+################
+03.asl - 10 entries
+
+Base: Delfino_Secret.param
+R: Delfino_Secret_R.param
+L: Delfino_Secret_L.param
+Z: Delfino_Secret_Z.param
+L+Start List: Delfino_Secret_ML_00.param
+R+Start List: Delfino_Secret_MR_00.param --- ..MR_04.param
+
+
+################
+04.asl - 10 entries
+
+Base: Luigis_Mansion.param
+R: Luigis_Mansion_R.param
+L: Luigis_Mansion_L.param
+Z: Luigis_Mansion_Z.param
+L+Start List: Luigis_Mansion_ML_00 & ..ML_01.param
+R+Start List: Luigis_Mansion_MR_00 --- ..MR_03.param
+
+
+################
+05.asl - 12 entries
+
+Base: Metal_Cavern.param
+R: Metal_Cavern_R.param
+L: Metal_Cavern_L.param
+Z: Metal_Cavern_Z.param
+L+Start List: Metal_Cavern_ML_00 --- ..ML_02.param
+R+Start List: Metal_Cavern_MR_00 --- ..MR_04.param
+
+
+################
+06.asl - 11 entries
+
+Base: Bowser_Castle.param
+R: Bowser_Castle_R.param
+L: Bowser_Castle_L.param
+Z: Bowser_Castle_Z.param
+L+Start List: Bowser_Castle_ML_00.param
+R+Start List: Bowser_Castle_MR_00 --- ..MR_05.param
+
+
+################
+07.asl - 4 entries
+
+Base: Jungle_Japes.param
+R: Jungle_Japes_R.param
+L: Jungle_Japes_L.param
+Z: Jungle_Japes_Z.param
+
+
+################
+08.asl - 6 entries
+
+Base: Rumble_Falls.param
+R: Rumble_Falls_R.param
+L+Star List: Rumble_Falls_ML_00 --- ..ML_03.param
+
+
+################
+09.asl - 12 entries
+
+Base: Temple_of_Time.param
+R: Temple_of_Time_R.param
+L: Temple_of_Time_L.param
+Z: Temple_of_Time_Z.param
+L+Star List: Temple_of_Time_ML_00 & ..ML_01.param
+R+Start List: Temple_of_Time_MR_00 --- ..MR_04.param
+Event: Event_31.param
+
+
+################
+33.asl - 2 entries
+
+Base: Hyrule_Castle.param
+L: Hyrule_Castle_L.param
+
+################
+49.asl - 7 entries
+
+Base: Ceres_Space_Colony.param
+R: Ceres_Space_Colony_R.param
+L: Ceres_Space_Colony_L.param
+Z: Ceres_Space_Colony_Z.param
+L+Star List: Ceres_Space_Colony_ML_00.param
+R+Start List: Ceres_Space_Colony_MR_00 & ..MR_01.param
+
+################
+0C.asl - 11 entries
+
+Base: Frigate_Husk.param
+R: Frigate_Husk_R.param
+L: Frigate_Husk_L.param
+Z: Frigate_Husk_Z.param
+L+Star List: Frigate_Husk_ML_00.param & ..ML_01.param
+R+Start List: Frigate_Husk_MR_00 --- ..MR_04.param
+
+################
+0D.asl - 9 entries
+
+Base: Yoshis_Island.param
+R: Yoshis_Island_R.param
+L: Yoshis_Island_L.param
+Z: Yoshis_Island_Z.param
+L+Star List: Yoshis_Island_ML_00.param
+R+Start List: Yoshis_Island_MR_00 --- ..MR_03.param
+
+################
+0E.asl - 4 entries
+
+Base: Mini_Explain.param
+L+Start List: Mini_Explain_ML_00 --- ..ML_02.param
+
+################
+13.asl - 4 entries
+
+Base: Lylat_Cruise.param
+R: Lylat_Cruise_R.param
+L: Lylat_Cruise_L.param
+L+Start List: Lylat_Cruise_ML_00.param
+
+################
+14.asl - 1 entry
+
+Base: Gaur_Plains.param
+
+################
+15.asl - 2 entries
+
+Base: Mt_Pyre.param
+R: Mt_Pyre_SSZ.param
+
+################
+16.asl - 3 entries
+
+Base: Dead_Line.param
+R: Dead_Line_R.param
+L: Dead_Line_L.param
+
+################
+17.asl - 2 entries
+
+Base: Great_Bay.param
+R: Great_Bay_R.param
+
+################
+18.asl - 2 entries
+
+Base: Yoshis_Island_Flat.param
+L+Start List: Yoshis_Island_Flat_ML_00.param
+
+################
+19.asl - 8 entries
+
+Base: Castle_Siege.param
+R: Castle_Siege_R.param
+L: Castle_Siege_L.param
+Z: Castle_Siege_Z.param
+L+Start List: Castle_Siege_ML_00.param & ..ML_01.param
+R+Start List: Castle_Siege_MR_00 & ..MR_01.param
+
+################
+1C.asl - 14 entries
+
+Base: Wario_Land.param
+R: Wario_Land_R.param
+L: Wario_Land_L.param
+Z: Wario_Land_Z.param
+L+Start List: Wario_Land_ML_00.param
+R+Start List: Wario_Land_MR_00.param --- ..MR_08.param
+
+################
+1D.asl - 8 entries
+
+Base: Distant_Planet.param
+R: Distant_Planet_R.param
+L: Distant_Planet_L.param
+Z: Distant_Planet_Z.param
+L+Start List: Distant_Planet_ML_00.param
+R+Start List: Distant_Planet_MR_00.param --- ..MR_02.param
+
+################
+1E.asl - 8 entries
+
+Base: Skyworld.param
+L+Start List:Base: Skyworld_ML_00.param --- ..ML_02.param
+
+################
+1F.asl - 10 entries
+
+Base: Fountain_of_Dreams.param
+R: Fountain_of_Dreams_R.param
+L: Fountain_of_Dreams_L.param
+Z: Fountain_of_Dreams_Z.param
+L+Start List: Fountain_of_Dreams_ML_00.param & ..ML_01.param
+R+Start List: Fountain_of_Dreams_MR_00.param --- ..MR_03.param
+
+################
+20.asl - 5 entries
+
+Base: Tiny_FD.param
+R: Tiny_FD_R.param
+L: Tiny_FD_L.param
+R+Start List: Tiny_FD_MR_00.param & ..MR_01.param
+
+################
+21.asl - 13 entries
+
+Base: Smashville.param
+R: Smashville_R.param
+L: Smashville_L.param
+Z: Smashville_Z.param
+R+Start List: Smashville_MR_00.param --- ..MR_08.param
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+################
+2B.asl - 5 entries
+
+Base: Kongo_Jungle.param
+R: Kongo_Jungle_R.param
+L: Kongo_Jungle_L.param
+Z: Kongo_Jungle_Z.param
+L+Start List: Kongo_Jungle_ML_00.param
+

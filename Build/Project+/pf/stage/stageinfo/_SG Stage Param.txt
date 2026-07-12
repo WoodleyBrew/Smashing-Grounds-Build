@@ -1,0 +1,1451 @@
+#############################################################################################
+Unlike the vanilla .txt file this is in order of BrawlInstaller instead of alphabetical order
+#############################################################################################
+
+################
+Battlefield.param
+
+	STGBATTLEFIELD.pac
+	st_battle.rel
+	Battlefield_SG.tlst
+
+################
+Battlefield_R.param
+
+	STGBATTLEFIELD_R_BF_LUNAR.pac
+	st_battle_NoShadowRotate.rel
+	Battlefield_SG.tlst
+
+################
+Battlefield_L.param
+
+	STGBATTLEFIELD_L_BF_MELEE.pac
+	st_battle_NoShadowRotate.rel
+	Battlefield_SG.tlst
+
+################
+Battlefield_Z.param
+
+	STGBATTLEFIELD_Z_BF_TORNSKY.pac
+	st_battle_NoShadowRotate.rel
+	Battlefield_SG.tlst
+
+################
+Battlefield_ML_XX.param
+
+	STGBATTLEFIELD_DAY_NIGHT.pac
+	st_battle.rel
+	Battlefield_SG.tlst
+
+################
+Battlefield_MR_00.param --- ..MR_02.param
+
+	Duplicates of Battlefield R, L, Z (Some different .tslt)
+
+################
+Battlefield_MR_03.param
+
+	[Substages / DualLoad]
+	- STGCASTLESIEGE_Z_BF_SIEGE.pac
+	- STGCASTLESIEGE_Z_SBG.pac
+
+	st_castlesiege_notransform.rel
+	Castle_Siege.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x483300 (4731648 bytes)
+	Flags: DualLoad
+
+################
+Battlefield_MR_04.param
+
+	STGSUBSPACE_R_BF_STAIRS.pac
+	st_battle_noshadowrotate.rel
+	Battlefield_SG.tlst
+
+################
+Battlefield_MR_05.param
+
+	STGTRAININGROOM_Z_BF_TRAINING.pac
+	st_battle_noshadowrotate.rel
+	Battlefield_SG.tlst
+
+################
+Battlefield_MR_06.param
+
+	STGBATTLEFIELD_MR_BF_DUEL.pac
+	st_final.rel
+	Battlefield_SG.tlst
+
+################
+Battlefield_MR_07.param
+
+	STGPEACHCASTLE_R_BF_PEACH.pac
+	st_battle_noshadowrotate.rel
+	_vBrawl Mario.tlst
+
+################
+Battlefield_MR_08.param
+
+	STGCLOCKTOWN_L_BF_MAJORA.pac
+	st_palutena.rel
+	_vBrawl Zelda.tlst
+	SFX / GFX: 0x0054 / 0x0064
+
+################
+Battlefield_MR_09.param
+
+	STGPLANETZEBES_R_BF_BRINSTAR.pac
+	st_battle_noshadowrotate.rel
+	_vBrawl Metroid.tlst
+
+################
+Battlefield_MR_10.param
+
+	[Substages / RandomVariance]
+	- STGSPEARPILLAR_R_BF_00_DIALGA.pac
+	- STGSPEARPILLAR_R_BF_01_PALKIA.pac
+	- STGSPEARPILLAR_R_BF_02_GIRATINA.pac
+
+	st_battle_noshadowrotate.rel
+	_vBrawl Pokemon.tlst
+	SFX / GFX: 0x005A / 0x0046
+
+################
+Battlefield_MR_11.param
+
+	STGSKYWORLD_R_BF_SKYWORLD.pac
+	st_battle_noshadowrotate.rel
+	_vBrawl Kid Icarus.tlst
+
+################
+Battlefield_EVENT_MATCH.param
+	Duplicate of `Battlefield_MR_06.param`
+
+################
+Battlefield_MR_11.param
+
+	STGSKYWORLD_R_BF_SKYWORLD.pac
+	st_battle_noshadowrotate.rel
+	_vBrawl Kid Icarus.tlst
+
+################
+Final_Destination.param
+
+	STGFINALDESTINATION.pac
+	st_final_substage.rel
+	Final_Destination_SG.tlst
+	SFX / GFX: 0xFFFF / 0x0033
+
+################
+Final_Destination_R.param
+
+	STGFINALDESTINATION_R_FD_PROJECTM.pac
+	st_final.rel
+	Final_Destination_SG.tlst
+	SFX / GFX: 0xFFFF / 0x0033
+
+################
+Final_Destination_L.param
+
+	STGFINALDESTINATION_L_FD_BRAWL.pac
+	st_final.rel
+	Final_Destination_SG.tlst
+	SFX / GFX: 0xFFFF / 0x0033
+
+Final_Destination_Z.param
+
+	STGFINALDESTINATION_Z_FD_PLANETS.pac
+	st_final.rel
+	Final_Destination_SG.tlst
+	SFX / GFX: 0xFFFF / 0x0033
+
+################
+Final_Destination_ML_00.param
+
+	STGFINALDESTINATION_ML_64.pac
+	st_final.rel
+	_vBrawl Super Smash Bros.tlst
+	SFX / GFX: 0xFFFF / 0x0033
+
+################
+Final_Destination_ML_01.param
+
+	STGFINAL.pac
+	st_final.rel
+	_vBrawl Super Smash Bros.tlst
+	SFX / GFX: 0xFFFF / 0x0033
+
+################
+Final_Destination_MR_00.param --- ..MR_02.param
+
+	Duplicates of Final_Destination R, L, Z (Some different .tslt)
+
+################
+Final_Destination_MR_03.param
+
+	STGFINALDESTINATION.pac
+	st_final_substage.rel
+	Final_Destination.tlst
+	SFX / GFX: 0xFFFF / 0x0033
+	Substage Range: 1
+
+################
+Final_Destination_MR_04.param
+
+	STGLYLATCRUISE_R_FD_SPACE.pac
+	st_final.rel
+	_vBrawl Star Fox.tlst
+
+################
+Final_Destination_MR_05.param
+
+	[Substages / RandomVariance]
+	- STGSPEARPILLAR_L_FD_ROCKETHIDEOUT.pac
+	- STGSPEARPILLAR_L_FD_ROCKETHIDEOUT.pac
+
+	st_final_substage.rel
+	_vBrawl Pokemon.tlst
+
+################
+Final_Destination_MR_06.param
+
+	STGFLATZONE_R_FD_PARACHUTE.pac
+	st_final.rel
+	_vBrawl Nintendo_Retro.tlst
+
+################
+Final_Destination_MR_07.param
+
+	STGHANENBOW_Z_FD_HANENBOW.pac
+	st_plankton.rel
+	_vBrawl Nintendo_Retro.tlst
+	SFX / GFX: 0x0068 / 0x0056
+
+################
+Delfino_Secret.param
+
+	STGDELFINOSECRET.pac
+	st_final.rel
+	Delfino_Secret_SG.tlst
+
+################
+Delfino_Secret_R.param
+
+	STGDELFINOSECRET_R_DS_PLAZA.pac
+	st_final.rel
+	Delfino_Plaza_SG.tlst
+
+################
+Delfino_Secret_L.param
+
+	STGMARIOCIRCUIT_R_DS_MARIOCIRCUIT.pac
+	st_battle_noShadowRotate.rel
+	Delfino_Plaza_SG.tlst
+
+################
+Delfino_Secret_Z.param
+
+	STGDELFINOSECRET_MR_DS_WORLD2-3.pac
+	st_final.rel
+	Delfino_Plaza_SG.tlst
+	SFX / GFX: 0x004D / 0x0034
+
+################
+Delfino_Secret_ML_00.param
+
+	STGDELFINOSECRET_L_DELFINOPLAZA.pac
+	st_dolpic.rel
+	_vBrawl Mario.tlst
+	SFX / GFX: 0x004D / 0x0034
+
+################
+Delfino_Secret_MR_00.param --- ..MR_02.param
+
+	Duplicates of Delfino_Secret R, L, Z (Some different .tslt)
+
+################
+Delfino_Secret_MR_03.param
+
+	STGDISTANTPLANET_Z_DS_CAVE.pac
+	st_final.rel
+	_vBrawl Pikmin.tlst
+
+################
+Delfino_Secret_MR_04.param
+
+	STGDRACULASCASTLE_R_DS_DRACULA.pac
+	st_final.rel
+	_vBrawl Super Smash Bros.tlst
+
+################
+Luigis_Mansion.param
+
+	STGLUIGISMANSION.pac
+	st_final.rel
+	Luigis_Mansion_SG.tlst
+	SFX / GFX: 0x004E / 0x0035
+
+################
+Luigis_Mansion_R.param
+
+	STGTEMPLE_R_LM_CASTLE.pac
+	st_final.rel
+	Luigis_Mansion_SG.tlst
+
+################
+Luigis_Mansion_L.param
+
+	STGLUIGISMANSION_R_LM_DRYBONES.pac
+	st_final.rel
+	Luigis_Mansion_SG.tlst
+
+################
+Luigis_Mansion_Z.param
+
+	STGLUIGISMANSION_Z_LM_DELFINO.pac
+	st_final.rel
+	Luigis_Mansion_SG.tlst
+
+################
+Luigis_Mansion_ML_00.param
+
+	STGLUIGISMANSION_Z_BRAWL.pac
+	st_mansion.rel
+	Luigis_Mansion_SG.tlst
+	SFX / GFX: 0x004E / 0x0035
+
+################
+Luigis_Mansion_ML_01.param
+
+	STGLUIGISMANSION_L_KINGBOOILLUSION.pac
+	st_final.rel
+	Luigis_Mansion_SG.tlst
+
+################
+Luigis_Mansion_MR_00.param --- ..MR_02.param
+
+	Duplicates of Luigis_Mansion R, L, Z (Some different .tslt)
+
+################
+Luigis_Mansion_MR_04.param
+
+	STGLUIGISMANSION_MR_LM_PICTO.pac
+	st_final.rel
+	Luigis_Mansion_SG.tlst
+
+################
+Metal_Cavern.param
+
+	[Substages / RandomVariance]
+	- STGMETALCAVERN_00.pac
+	- STGMETALCAVERN_00.pac
+
+	st_final_substage.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_R.param
+
+	STGMETALCAVERN_R_MC_UNDERGROUND.pac
+	st_final.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_L.param
+
+	STGMETALCAVERN_MR_MC_N64.pac
+	st_final.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_Z.param
+
+	STGPOKEFLOATS_Z_MC_TREASURETOWN.pac
+	st_battle_NoShadowRotate.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_ML_00.param
+
+	STGMETALCAVERN_ML_N64.pac
+	st_final.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_ML_01.param
+
+	[Substages / RandomVariance]
+	- STGMETALCAVERN_Z_64_REMAKE.pac
+	- STGMETALCAVERN_Z_64_REMAKE.pac
+
+	st_final_substage.rel
+	Metal_Cavern_SG.tlst
+
+################
+Metal_Cavern_ML_02.param
+
+	STGMETALCAVERN_L_MARIOBROS.pac
+	st_famicom.rel
+	_vBrawl Nintendo_Retro.tlst
+	SFX / GFX: 0x0062 / 0x0032
+	MemoryAllocation: 0x100000 (1048576 bytes)
+	Flags: Flat, FixedCamera
+
+################
+Metal_Cavern_MR_00.param --- ..MR_02.param
+
+	Duplicates of Metal_Cavern R, L, Z (Some different .tslt)
+
+################
+Metal_Cavern_MR_03.param
+
+	STGMUSHROOMKINGDOM_R_MC_GROUND.pac
+	st_final.rel
+	_vBrawl Mario.tlst
+
+################
+Metal_Cavern_MR_04.param
+
+	STGHYRULECASTLE_L_MC_GANONCASTLE.pac
+	st_palutena.rel
+	_vBrawl Zelda.tlst
+
+################
+Metal_Cavern_MR_04.param
+
+	STGHYRULECASTLE_L_MC_GANONCASTLE.pac
+	st_palutena.rel
+	_vBrawl Zelda.tlst
+
+################
+Bowser_Castle.param
+
+	STGBOWSERCASTLE.pac
+	st_bowsercastle.rel
+	Bowsers_Castle_SG.tlst
+	SFX / GFX: 0x0201 / 0x0032
+
+################
+Bowser_Castle_R.param
+
+	[Substages / Normal]
+	- STGBOWSERCASTLE_MR_BC_DRY.pac
+
+	st_bowsercastle.rel
+	Bowsers_Castle_SG.tlst
+	SFX / GFX: 0x0201 / 0x0032
+
+################
+Bowser_Castle_L.param
+
+	STGDINOSAURLAND_L_BC_BOWSERMARIOWORLD.pac
+	st_final.rel
+	Bowsers_Castle_SG.tlst
+
+################
+Bowser_Castle_Z.param
+
+	STGBOWSERCASTLE_Z_BC_WORLDBOWSER.pac
+	st_final.rel
+	Bowsers_Castle_SG.tlst
+
+################
+Bowser_Castle_MR.param --- ..MR_02.param
+
+	Duplicates of Bowser_Castle R, L, Z (Some different .tslt)
+
+################
+Bowser_Castle_MR_03.param
+
+	STGBOWSERCASTLE_R_BC_CLASSIC.pac
+	st_final.rel
+	Bowsers_Castle_SG.tlst
+
+################
+Bowser_Castle_MR_04.param
+
+	STGRUMBLEFALLS_R_BC_RUMBLE.pac
+	st_final.rel
+	_vBrawl Donkey Kong.tlst
+
+################
+Bowser_Castle_MR_05.param
+
+	STGPIRATESHIP_Z_BC_MOLGERA.pac
+	st_final.rel
+	_vBrawl Zelda.tlst
+
+################
+Bowser_Castle_ML_00.param
+
+	[Substages / Normal]
+	- STGBOWSERCASTLE_L_THWOMPS.pac
+
+	st_bowsercastle.rel
+	Bowsers_Castle_SG.tlst
+	SFX / GFX: 0x0201 / 0x0032
+
+################
+Jungle_Japes.param
+
+	STGJUNGLEJAPES.pac
+	st_junglejapes_noswim.rel
+	_vBrawl Donkey Kong.tlst
+	SFX / GFX: 0x006A / 0x005C
+
+################
+Jungle_Japes_L.param
+
+	STGJUNGLEJAPES_L_KONGOFALLS.pac
+	st_kongofalls.rel
+	_vBrawl Donkey Kong.tlst
+	SFX / GFX: 0x006A / 0x005C
+
+################
+Jungle_Japes_R.param
+
+	STGJUNGLEJAPES.pac
+	st_dxgarden.rel
+	_vBrawl Donkey Kong.tlst
+	SFX / GFX: 0x006A / 0x005C
+
+################
+Jungle_Japes_Z.param
+
+	STGJUNGLEJAPES_Z_YIPM_KONGOFALLS.pac
+	st_crayon.rel
+	_vBrawl Donkey Kong.tlst
+	SFX / GFX: 0x004C / 0x0032
+		04C_JUNGLEJAPES_Z_YIPM_KONGOFALLS.sawnd
+
+################
+Rumble_Falls.param
+
+	STGRUMBLEKEEP.pac
+	st_final.rel
+	_vBrawl Donkey Kong.tlst
+
+################
+Rumble_Falls_R.param
+
+	STGBOWSERSKEEP
+	st_battle_noshadowrotate.rel
+	Bowsers_Castle_SG.tlst
+
+################
+Rumble_Falls_ML_00.param
+
+	STGDONKEY.pac
+	st_donkey.rel
+	_vBrawl Donkey Kong.tlst
+	SFX / GFX: 0x0051 / 0x0032
+
+################
+Rumble_Falls_ML_01.param
+
+	STGJUNGLE.pac
+	st_jungle.rel
+	_vBrawl Donkey Kong.tlst
+	SFX / GFX: 0x0052 / 0x0039
+	Flags: SlowStart
+
+################
+Rumble_Falls_ML_02.param
+
+	STGRUMBLEFALLS.pac
+	st_final.rel
+	_vBrawl Donkey Kong.tlst
+
+################
+Rumble_Falls_ML_03.param
+
+	STGRUMBLEFALLS_Z_BIGAPECITY.pac
+	st_bigapecity.rel
+	_vBrawl Donkey Kong.tlst
+	SFX / GFX: 0x0060 / 0x004E
+		060_RumbleFalls_Z_BigApeCity.sawnd
+
+################
+Temple_of_Time.param
+
+	STGTEMPLEOFTIME.pac
+	st_final.rel
+	Temple_of_Time_SG.tlst
+
+################
+Temple_of_Time_R.param
+
+	STGTEMPLEOFTIME_R_TOT_OOT.pac
+	st_templeoftime.rel
+	Temple_of_Time_SG.tlst
+	SFX / GFX: 0x005F / 0x0032
+		05F_TempleOfTime_R_TOT_OOT
+
+################
+Temple_of_Time_L.param
+
+	STGSAFFRONCITY_R_TOT_SAFFRON.pac
+	st_final.rel
+	Temple_of_Time_SG.tlst
+
+################
+Temple_of_Time_Z.param
+
+	STGTEMPLEOFTIME_Z_TOT_RAISIN.pac
+	st_final.rel
+	Temple_of_Time_SG.tlst
+	SFX / GFX: 0x0054 / 0x0064
+
+################
+Temple_of_Time_MR_00.param --- ..MR_02.param
+
+	Duplicates of Temple_of_Time R, L, Z (Some different .tslt)
+
+################
+Temple_of_Time_MR_03.param
+
+	[Substages / DualLoad]
+	- STGCASTLESIEGE_R_TOT_SIEGE.pac
+	- STGCASTLESIEGE_R_SBG.pac
+
+	st_castlesiege_notransform.rel
+	_vBrawl Fire Emblem.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x483300 (4731648 bytes)
+	Flags: DualLoad
+
+################
+Temple_of_Time_MR_04.param
+
+	STGPICTOCHAT_R_TOT_PICTOCHAT.pac
+	st_pictsimple.rel
+	PictoChat_SG.tlst
+	SFX / GFX: 0x0067 / 0x0032
+
+################
+Temple_of_Time_ML_00.param
+
+	STGTEMPLEOFTIME_L_ELDINPLATFORMS.pac
+	st_oldin_platforms.rel
+	_vBrawl Zelda.tlst
+	SFX / GFX: 0x005C / 0x0032
+
+################
+Temple_of_Time_ML_01.param
+
+	STGTEMPLEOFTIME_Z_BRIDGEOFELDIN.pac
+	st_oldin.rel
+	_vBrawl Zelda.tlst
+	SFX / GFX: 0x0054 / 0x0064
+
+################
+Event_31.param
+
+	STGTEMPLEOFTIME_ML_THRONE.pac
+	st_final.rel
+	_vBrawl Zelda.tlst
+
+################
+Hyrule_Castle.param
+
+	STGHYRULECASTLE.pac
+	st_hyrulecastle64.rel
+	_vBrawl Zelda.tlst
+
+################
+Hyrule_Castle_ML_00.param
+
+	STGHYRULECASTLE_ML_64.pac
+	st_hyrulecastle64.rel
+	_vBrawl Zelda.tlst	
+
+################
+Ceres_Space_Colony.param
+
+	STGCERESSPACECOLONY.pac
+	st_final.rel
+	_vBrawl Metroid.tlst
+
+################
+Ceres_Space_Colony_R.param
+
+	STGNORFAIR_R_CSC_NORFAIR.pac
+	st_final.rel
+	_vBrawl Metroid.tlst
+
+################
+Ceres_Space_Colony_L.param
+
+	STGSHADOWMOSES_Z_CSC_SHADOWMOSES.pac
+	st_final.rel
+	_vBrawl Metal Gear.tlst
+
+################
+Ceres_Space_Colony_Z.param
+
+	STGCERESSPACECOLONY_Z_COLONY_X.pac
+	st_final.rel
+	_vBrawl Metroid.tlst
+
+################
+Ceres_Space_Colony_MR_00.param & ..MR_01.param
+
+	Duplicates of Ceres_Space_Colony R & L (Some different .tslt)
+
+################
+Ceres_Space_Colony_ML_00.param
+
+	STGCERESSPACECOLONY_L_TALLONCANYON.pac
+	st_final.rel
+	_vBrawl Metroid.tlst
+
+################
+Frigate_Husk.param
+
+	STGFRIGATEHUSK.pac
+	st_final.rel
+	Frigate_Husk_SG.tlst
+	SFX / GFX: 0x0056 / 0x0032
+
+################
+Frigate_Husk_R.param
+
+	STGFRIGATEHUSK_R_FH_PHENDRANA.pac
+	st_phendrana.rel
+	Frigate_Husk_SG.tlst
+	SFX / GFX: 0x0053 / 0x0032
+		053_FrigateHusk_R_FH_Phendrana.sawnd
+
+################
+Frigate_Husk_L.param
+
+	STGCERESSPACECOLONY_R_FH_COLONY.pac
+	st_final.rel
+	Frigate_Husk_SG.tlst
+
+################
+Frigate_Husk_Z.param
+
+	STGFRIGATEHUSK_Z_FH_MEADOW.pac
+	st_final.rel
+	Frigate_Husk_SG.tlst
+	SFX / GFX: 0x0056 / 0x0032
+
+################
+Frigate_Husk_ML_00.param
+
+	STGFRIGATEHUSK_L_ORPHEON.pac
+	st_orpheon.rel
+	_vBrawl Metroid.tlst
+	SFX / GFX: 0x0056 / 0x0032
+
+################
+Frigate_Husk_ML_01.param
+
+	STGORPHEON.pac
+	st_orpheon.rel
+	_vBrawl Metroid.tlst
+	SFX / GFX: 0x0056 / 0x0032
+
+################
+Frigate_Husk_MR_00.param --- ..MR_02.param
+
+	Duplicates of Frigate_Husk R, L, Z (Some different .tslt)
+
+################
+Yoshis_Island.param
+
+	STGYOSHISISLAND_R_YI_TROPICAL.pac
+	st_final.rel
+	Yoshis_Island_SG.tlst
+
+################
+Yoshis_Island_R.param
+
+	STGYOSHISISLAND.pac
+	st_crayon_noshyguy_ht.rel
+	Yoshis_Island_SG.tlst
+
+################
+Yoshis_Island_L.param
+
+	STGPIRATESHIP_R_YI_ANCIENTCASTLE.pac
+	st_final.rel
+	Yoshis_Island_SG.tlst
+
+################
+Yoshis_Island_Z.param
+
+	STGHANENBOW_R_YI_HANENBOW.pac
+	st_plankton.rel
+	Yoshis_Island_SG.tlst
+	SFX / GFX: 0x0068 / 0x0056
+
+################
+Yoshis_Island_ML_00.param
+
+	STGYOSHISISLAND_L_TROPICAL.pac
+	st_crayon.rel
+	Yoshis_Island_SG.tlst
+	SFX / GFX: 0x004C / 0x0032
+
+################
+Yoshis_Island_MR_00.param --- ..MR_02.param
+
+	Duplicates of Yoshis_Island R, L, Z (Some different .tslt)
+
+################
+Yoshis_Island_MR_03.param
+
+	STGYOSHISISLAND_SEASIDE.pac
+	st_final_substage.rel
+	Yoshis_Island_SG.tlst
+
+################
+Mini_Explain.param
+
+	STGMINI_EXPLAIN.pac
+	st_dreamland64_ht.rel
+	Dream_Land_SG.tlst
+
+################
+Mini_Explain_ML_00.param
+
+	STGMINI_EXPLAIN_LARGE.pac
+	st_dreamland64_ht.rel
+	Dream_Land_SG.tlst
+
+################
+Mini_Explain_ML_01.param
+
+	Duplicate of Mini_Explain.param
+
+################
+Mini_Explain_ML_00.param
+
+	MINI_EXPLAIN_RIGHT.pac
+	st_dreamland64_ht.rel
+	Dream_Land_SG.tlst
+
+################
+Lylat_Cruise.param
+
+	STGLYLATCRUISE_Z_FLAT.pac
+	st_palutena.rel
+	_vBrawl Star Fox.tlst
+	Flags: SlowStart
+
+################
+Lylat_Cruise_L.param
+
+	STGLYLATCRUISE_L_METEO.pac
+	st_final.rel
+	_vBrawl Star Fox.tlst
+	SFX / GFX: 0x0058 / 0x0044
+
+################
+Lylat_Cruise_R.param
+
+	[Substages / DualLoad]
+	- STGLYLATCRUISE.pac
+	- STGSTARFOX_ASTEROID.pac
+	- STGSTARFOX_BATTLESHIP.pac
+	- STGSTARFOX_CORNERIA.pac
+	- STGSTARFOX_SPACE.pac
+
+	st_starfox_norotate.rel
+	_vBrawl Star Fox.tlst
+	SFX / GFX: 0x0058 / 0x0044
+	MemoryAllocation: 0x334000 (3358720 bytes)
+	Flags: DualLoad, DualShuffle
+
+################
+Lylat_Cruise_ML_00.param
+
+	[Substages / DualLoad]
+	- STGLYLATCRUISE.pac
+	- STGSTARFOX_ASTEROID.pac
+	- STGSTARFOX_BATTLESHIP.pac
+	- STGSTARFOX_CORNERIA.pac
+	- STGSTARFOX_SPACE.pac
+
+	st_starfox.rel
+	_vBrawl Star Fox.tlst
+	SFX / GFX: 0x0058 / 0x0044
+	MemoryAllocation: 0x334000 (3358720 bytes)
+	Flags: DualLoad, DualShuffle
+
+################
+Gaur_Plains.param
+
+	STGGAURPLAINS.pac
+	st_palutena.rel
+	Smashville_SG.tlst
+
+################
+Mt_Pyre.param
+
+	STGMTPYRE.pac
+	st_battle_noshadowrotate.rel
+	Luigis_Mansion_SG.tlst
+
+################
+Mt_Pyre_SSZ.param
+
+	STGMTPYRE_R_SSZ.pac
+	st_final.rel
+	Green_Hill_Zone_SG.tlst
+
+################
+Dead_Line.param
+
+	STGDEADLINE.pac
+	st_greenhill_ht.rel
+	Green_Hill_Zone_SG.tlst
+
+################
+Dead_Line_L.param
+
+	STGDEADLINE_L_CHEMICALPLANT.pac
+	st_greenhill_act2.rel
+	Green_Hill_Zone_SG.tlst
+
+################
+Dead_Line_R.param
+
+	STGDEADLINE_R_DED_CHEMICALPLANT.pac
+	st_greenhill_ht.rel
+	Green_Hill_Zone_SG.tlst
+
+################
+Great_Bay.param
+
+	STGCLOCKTOWN_Z_GREATBAY.pac
+	st_junglejapes_noswim.rel
+	_vBrawl Zelda.tlst
+
+################
+Great_Bay_R.param
+
+	STGCLOCKTOWN_Z_GREATBAY.pac
+	st_dxgarden.rel
+	_vBrawl Zelda.tlst
+
+################
+Yoshis_Island_Flat.param
+
+	STGYOSHISISLAND_FLAT.pac
+	st_crayon_noshyguy_nosfx.rel
+	Yoshis_Flat_Story_SG.tlst
+
+################
+Yoshis_Island_Flat.param
+
+	STGYOSHISISLAND_Z_PROJECTM.pac
+	st_crayon.rel
+	Yoshis_Flat_Story_SG.tlst
+	SFX / GFX: 0x004C / 0x0032
+
+################
+Castle_Siege.param
+
+	[Substages / DualLoad]
+	- STGCASTLESIEGE.pac
+	- STGCASTLESIEGE_SBG.pac
+
+	st_castlesiege_notransform.rel
+	_vBrawl Fire Emblem.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x4B3300 (4928256 bytes)
+	Flags: DualLoad
+
+################
+Castle_Siege_R.param
+
+	STGSUBSPACE_L_CS_RUINS.pac
+	st_final.rel
+	_vBrawl Fire Emblem.tlst
+
+################
+Castle_Siege_L.param
+
+	[Substages / DualLoad]
+	- STGCASTLESIEGE.pac
+	- STGEMBLEM_00.pac
+
+	st_castlesiege_notransform.rel
+	_vBrawl Fire Emblem.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x483300 (4731648 bytes)
+	Flags: DualLoad
+
+################
+Castle_Siege_Z.param
+
+	STGCASTLESIEGE_L_GUIDANCE.pac
+	st_final.rel
+	_vBrawl Fire Emblem.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x2000 (8192 bytes)
+
+################
+Castle_Siege_ML_00.param
+
+	[Substages / DualLoad]
+	- STGCASTLESIEGE.pac
+	- STGEMBLEM_02.pac
+
+	st_castlesiege_02.rel
+	_vBrawl Fire Emblem.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x483300 (4731648 bytes)
+	Flags: DualLoad
+
+################
+Castle_Siege_ML_01.param
+
+	[Substages / DualLoad]
+	- STGEMBLEM.pac
+	- STGEMBLEM_00.pac
+	- STGEMBLEM_01.pac
+	- STGEMBLEM_02.pac
+
+	st_castlesiege.rel
+	_vBrawl Fire Emblem.tlst
+	SFX / GFX: 0x005E / 0x004A
+	MemoryAllocation: 0x483300 (4731648 bytes)
+	Flags: DualLoad
+
+################
+Castle_Siege_ML_00.param
+
+	Duplicates of Castle_Siege R, L, Z (Some different .tslt)
+
+################
+Wario_Land.param
+
+	STGWARIOLAND_SG.pac
+	st_final.rel
+	Wario_Land_SG.tlst
+
+################
+Wario_Land_R.param
+
+	STGWARIOLAND_R_WL_WARIOCASTLE.pac
+	st_final.rel
+	Wario_Land_SG.tlst
+
+################
+WarioWare_R.param
+
+	STGWARIOWARE_R_WL_ASHLEY.pac
+	st_final.rel
+	Wario_Land_SG.tlst
+
+################
+Wario_Land_Z.param
+
+	STGWARIOLAND_Z_WL_WALUIGISTADIUM.pac
+	st_final.rel
+	Wario_Land_SG.tlst
+
+################
+Wario_Land_ML_00.param
+
+	STGWARIOLAND_L_WARIOCASTLE.pac
+	st_dxgarden.rel
+	Wario_Land_SG.tlst
+	SFX / GFX: 0x006A / 0x005C
+
+################
+Wario_Land_MR_00.param --- ..MR_02.param
+
+	Duplicates of Wario_Land R, L, Z (Some different .tslt)
+
+################
+Wario_Land_MR_03.param
+
+	STGWARIOWARE_L_WL_DISCO.pac
+	st_final.rel
+	Wario_Land_SG.tlst
+
+################
+Wario_Land_MR_04.param
+
+	STGRAINBOWCRUISE_R_WL_CRUISE.pac
+	st_final.rel
+	_vBrawl Mario.tlst
+
+################
+Wario_Land_MR_05.param
+
+	STGMINECARTMADNESS_R_WL_FEARFACTORY.pac
+	st_final.rel
+	_vBrawl Donkey Kong.tlst
+
+################
+Wario_Land_MR_06.param
+	STGJUNGLEJAPES_R_WL_KONGOFALLS.pac
+	st_final.rel
+	_vBrawl Donkey Kong.tlst
+	SFX / GFX: 0x006A / 0x005C
+
+################
+Wario_Land_MR_07.param
+
+	STGHYRULECASTLE_R_WL_HYRULE.pac
+	st_greenhill_act2.rel
+	_vBrawl Zelda.tlst
+
+################
+Wario_Land_MR_08.param
+
+	STGBELLTOWER_L_WL_WHIRLISLANDS.pac
+	st_final.rel
+	_vBrawl Pokemon.tlst
+
+################
+Distant_Planet.param
+
+	STGDISTANTPLANET.pac
+	st_earth.rel
+	_vBrawl Pikmin.tlst
+	SFX / GFX: 0x0060 / 0x004E
+
+################
+Distant_Planet_R.param
+
+	STGDISTANTPLANET_R_DP_VALLEY.pac
+	st_earth.rel
+	_vBrawl Pikmin.tlst
+	SFX / GFX: 0x0060 / 0x004E
+
+################
+Distant_Planet_L.param
+
+	STGFOURSIDE_Z_DP_FOURSIDE.pac
+	st_earth.rel
+	_vBrawl Pikmin.tlst
+
+################
+Distant_Planet_Z.param
+
+	STGSUBSPACE_Z_DP_FOREST.pac
+	st_earth.rel
+	_vBrawl Pikmin.tlst
+
+################
+Distant_Planet_ML_00.param
+
+	STGDISTANTPLANET_L_BRAWL.pac
+	st_earth.rel
+	_vBrawl Pikmin.tlst
+	SFX / GFX: 0x0060 / 0x004E
+
+################
+Distant_Planet_MR_00.param --- ..MR_02.param
+
+	Duplicates of Battlefield R, L, Z (Some different .tslt)
+
+################
+Skyworld.param
+
+	STGSKYWORLD_SG.pac
+	st_palutena.rel
+	_vBrawl Kid Icarus.tlst
+
+################
+Skyworld_ML_00.param
+
+	STGSKYWORL_P+.pac
+	st_final.rel
+	_vBrawl Kid Icarus.tlst
+
+################
+Skyworld_ML_01.param
+
+	STGSKYWORLD_L_BRAWL.pac
+	st_palutena.rel
+	_vBrawl Kid Icarus.tlst
+	SFX / GFX: 0x0061 / 0x004F
+
+################
+Skyworld_ML_02.param
+
+	STGSKYWORLD_Z_SW_UNDERWORLD.pac
+	st_palutena.rel
+	_vBrawl Kid Icarus.tlst
+	SFX / GFX: 0x0061 / 0x004F
+
+################
+Fountain_of_Dreams.param
+
+	STGFOUNTAINOFDREAMS.pac
+	st_dxfountain.rel
+	Fountain_of_Dreams_SG.tlst
+	SFX / GFX: 0x0200 / 0x0033
+
+################
+Fountain_of_Dreams_R.param
+
+	STGCOOKIECOUNTRY_R_FOD_COOKIE.pac
+	st_dxfountain.rel
+	Fountain_of_Dreams_SG.tlst
+
+################
+Fountain_of_Dreams_L.param
+
+	STGFOUNTAINOFDREAMS_R_FOD_CAVE.pac
+	st_dxfountain.rel
+	Fountain_of_Dreams_SG.tlst
+
+################
+Fountain_of_Dreams_Z.param
+
+	STGCORNERIA_R_FOD_SAURIA.pac
+	st_dxfountain.rel
+	Fountain_of_Dreams_SG.tlst
+	SFX / GFX: 0x006D / 0x0061
+
+################
+Fountain_of_Dreams_ML_00.param
+
+	STGFOUNTAINOFDREAMS_L_SECTONIAGEM.pac
+	st_palutena.rel
+	_vBrawl Kirby.tlst
+
+################
+Fountain_of_Dreams_ML_01.param
+
+	STGFOUNTAINOFDREAMS_Z_GREENGREENS.pac
+	st_dxgreens.rel
+	_vBrawl Kirby.tlst
+	SFX / GFX: 0x006C / 0x005E
+
+################
+Fountain_of_Dreams_MR_00.param --- ..MR_02.param
+
+	Duplicates of Battlefield R, L, Z (Some different .tslt)
+
+################
+Fountain_of_Dreams_MR_03.param
+
+	STGINFINITEGLACIER_R_FOD_SUMMIT.pac
+	st_dxfountain.rel
+	_vBrawl Ice Climber.tlst
+
+################
+Tiny_FD.param
+
+	STGTINYFD.pac
+	st_final.rel
+	Final_Destination_SG
+
+################
+Tiny_FD_L.param
+
+	STGTINYFD_AZPM_MOON.pac
+	st_final.rel
+	Final_Destination_SG
+
+################
+Tiny_FD_R.param
+
+	STGTINYFD_AZPM_SUN.pac
+	st_final.rel
+	Final_Destination_SG
+
+################
+Tiny_FD_MR_00.param & ..MR_01.param
+
+	Duplicates of L & R params
+
+################
+Smashville.param
+
+	[Substages / Normal]
+	- STGSMASHVILLE_00_MORNING.pac
+	- STGSMASHVILLE_01_NOON.pac
+	- STGSMASHVILLE_02_DUSK.pac
+	- STGSMASHVILLE_03_NIGHT.pac
+	- STGSMASHVILLE_03_NIGHT.pac
+	- STGSMASHVILLE_03_NIGHT.pac
+	- STGSMASHVILLE_04_MIDNIGHT.pac
+	- STGSMASHVILLE_04_MIDNIGHT.pac
+
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+	Flags: OldSubstage
+
+################
+Smashville_L.param
+
+	STGSMASHVILLE_L_SV_SAKURA.pac
+	st_smashville_ht.rel
+	Smashville_Sakura.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_R.param
+
+	STGSMASHVILLE_R_SV_BEACH.pac
+	st_smashville_ht.rel
+	Smashville_Tropical.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_Z.param
+
+	STGSMASHVILLE_Z_SV_OCEAN.pac
+	st_smashville_ht.rel
+	Smashville_Tropical.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_00.param
+
+	STGSMASHVILLE_00_MORNING.pac
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_01.param
+
+	STGSMASHVILLE_01_NOON.pac
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_02.param
+
+	STGSMASHVILLE_02_DUSK.pac
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_03.param
+
+	STGSMASHVILLE_03_NIGHT.pac
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_04.param
+
+	STGSMASHVILLE_04_MIDNIGHT.pac
+	st_smashville_ht.rel
+	Smashville.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_05.param
+
+	STGSMASHVILLE_03_NIGHT.pac
+	st_smashville_ht.rel
+	Smashville_Concert.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_06.param
+
+	STGSMASHVILLE_R_SV_BEACH.pac
+	st_smashville_ht.rel
+	Smashville_Concert.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_07.param
+
+	STGSMASHVILLE_L_SV_SAKURA.pac
+	st_smashville_ht.rel
+	Smashville_Concert.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+################
+Smashville_MR_08.param
+
+	STGSMASHVILLE_Z_SV_OCEAN.pac
+	st_smashville_ht.rel
+	Smashville_Concert.tlst
+	SFX / GFX: 0x0064 / 0x0032
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+################
+Kongo_Jungle.param
+
+	STGKONGOJUNGLE.pac
+	st_kongojungle64.rel
+	_vBrawl Donkey Kong.tlst
+
+################
+Kongo_Jungle_R.param
+
+	STGKONGOJUNGLE_MR_64.pac
+	st_kongojungle64.rel
+	_vBrawl Donkey Kong.tlst
+
+################
+Kongo_Jungle_L.param
+
+	STGKONGOJUNGLE_L_HORNETHOLE.pac
+	st_final.rel
+	_vBrawl Donkey Kong.tlst
+
+################
+Kongo_Jungle_Z.param
+
+	STGKONGOJUNGLE_Z_SUNSETSHORE.pac
+	st_final.rel
+	_vBrawl Donkey Kong.tlst
+	SFX / GFX: 0x0060 / 0x004E
+
+################
+Kongo_Jungle_ML_00.param
+
+	STGRUMBLEFALLS_L_KJ_75M.pac
+	st_final.rel
+	_vBrawl Donkey Kong.tlst
