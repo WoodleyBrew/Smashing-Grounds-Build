@@ -16,6 +16,10 @@ Skins:
 		
 		- Classic DeDeDe Z-alt added as a regular costume
 
+	* Lucas
+
+		- Shadowhawke skin added to build
+
 	* Olimar
 
 		- Chef Olimar (and team colors) skin added to build
