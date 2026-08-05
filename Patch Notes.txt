@@ -2,6 +2,10 @@ HD Textures:
 
 	* Organized to remove duplicates and other unused textures
 
+Curated Random:
+	
+	* A code has been added that allows you to choose a pool of characters for random to select from, details here: https://github.com/2gifts/ProjectPlusRandomFilterMod#what-it-does
+
 UI / Aesthetics:
 
 	* Stage banners, Icons, RSS icons, etc. have been adjusted across the board! Enjoy this new coat of paint on SG build
