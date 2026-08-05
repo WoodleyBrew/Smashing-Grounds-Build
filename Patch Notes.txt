@@ -16,6 +16,10 @@ Skins:
 		
 		- Classic DeDeDe Z-alt added as a regular costume
 
+	* Diddy Kong
+
+		- Cowboy Diddy Kong added to build
+
 	* Lucas
 
 		- Shadowhawke skin added to build
