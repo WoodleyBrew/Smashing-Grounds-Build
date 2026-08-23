@@ -72,7 +72,7 @@ int 0x64CE00 @ $80422334
 						# asm file will be fine-tuned when fully implemented to fix oversights within it.
 
 ##########################################
-![Project+] Skip strap screen [PyotrLuzhin]
+[Project+] Skip strap screen [PyotrLuzhin]
 ##########################################
 op b 0x298		@ $806CADE8
 
@@ -350,7 +350,7 @@ Default Settings Modifier [Igglyboo, Brkirch, FMK]
 * 42000000 90000000
 * 0417F360 00000100
 * 0417F364 04000A00
-* 0417F368 08010100
+* 0417F368 08010101 # ALC On
 * 0417F36C 00000000
 * E0000000 80008000
 
