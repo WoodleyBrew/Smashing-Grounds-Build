@@ -652,8 +652,8 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": 64,
-        "Height": 56
+        "Width": 32,
+        "Height": 28
       },
       "Format": 14,
       "FirstOnly": false,
@@ -1195,8 +1195,8 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": 64,
-        "Height": 56
+        "Width": 32,
+        "Height": 28
       },
       "Format": 14,
       "FirstOnly": false,
@@ -1807,8 +1807,8 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": 200,
-        "Height": 64
+        "Width": 100,
+        "Height": 32
       },
       "Format": 14,
       "FirstOnly": false,
@@ -2485,6 +2485,14 @@
       {
         "FileType": 24,
         "Path": "pf\\stage\\switch\\Switch08.rss"
+      },
+      {
+        "FileType": 24,
+        "Path": "pf\\stage\\switch\\Switch09.rss"
+      },
+      {
+        "FileType": 24,
+        "Path": "pf\\stage\\switch\\Switch0A.rss"
       }
     ],
     "RandomStageNamesLocations": [
