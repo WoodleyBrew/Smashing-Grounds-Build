@@ -2477,6 +2477,10 @@
       {
         "FileType": 24,
         "Path": "pf\\stage\\switch\\SwitchFF.rss"
+      },
+      {
+        "FileType": 24,
+        "Path": "pf\\stage\\switch\\Switch07.rss"
       }
     ],
     "RandomStageNamesLocations": [
