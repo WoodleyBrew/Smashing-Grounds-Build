@@ -1923,7 +1923,7 @@
       "AlwaysInheritStyle": false,
       "Required": false,
       "Enabled": true,
-      "Selectable": false,
+      "Selectable": true,
       "AlwaysCreateArchive": true,
       "PaletteCount": 256,
       "ImportTextures": true
@@ -2228,7 +2228,7 @@
     "SyncTracklists": false,
     "UpdateCodeMenuNames": true,
     "CompressBinFiles": true,
-    "RGBA8Thumbnails": false,
+    "RGBA8Thumbnails": true,
     "BinUTF8Encoding": true,
     "CreditsThemesUseFighterIds": true,
     "VictoryThemesUseFighterIds": true,
