@@ -652,8 +652,8 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": 32,
-        "Height": 28
+        "Width": 64,
+        "Height": 56
       },
       "Format": 14,
       "FirstOnly": false,
@@ -1195,8 +1195,8 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": 32,
-        "Height": 28
+        "Width": 64,
+        "Height": 56
       },
       "Format": 14,
       "FirstOnly": false,
@@ -1864,8 +1864,8 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": 200,
-        "Height": 64
+        "Width": 100,
+        "Height": 32
       },
       "Format": 14,
       "FirstOnly": false,
@@ -1963,7 +1963,7 @@
         "Width": 280,
         "Height": 220
       },
-      "Format": 0,
+      "Format": 14,
       "FirstOnly": false,
       "SeparateFiles": false,
       "CompressionType": 0,
