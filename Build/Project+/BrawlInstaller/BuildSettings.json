@@ -1807,8 +1807,8 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": 100,
-        "Height": 32
+        "Width": 200,
+        "Height": 64
       },
       "Format": 14,
       "FirstOnly": false,
@@ -1864,8 +1864,8 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": 100,
-        "Height": 32
+        "Width": 200,
+        "Height": 64
       },
       "Format": 14,
       "FirstOnly": false,
@@ -1923,7 +1923,7 @@
       "AlwaysInheritStyle": false,
       "Required": false,
       "Enabled": true,
-      "Selectable": true,
+      "Selectable": false,
       "AlwaysCreateArchive": true,
       "PaletteCount": 256,
       "ImportTextures": true
@@ -1936,7 +1936,7 @@
         "NodePath": "Misc Data [80]",
         "FileExtension": "pac"
       },
-      "HDImageLocation": "",
+      "HDImageLocation": "BrawlInstaller\\Stage Stats\\",
       "CreateHDTextureFolder": false,
       "ModelPath": null,
       "PatSettings": [
@@ -2473,10 +2473,6 @@
       {
         "FileType": 24,
         "Path": "pf\\stage\\switch\\Switch06.rss"
-      },
-      {
-        "FileType": 24,
-        "Path": "pf\\stage\\switch\\SwitchFF.rss"
       },
       {
         "FileType": 24,
