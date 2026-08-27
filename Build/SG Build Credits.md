@@ -26,7 +26,7 @@ Skyworld - **Motobug**
 
 
 
-Guar Plains - **Motobug**
+Gaur Plains - **Motobug**?
 
 
 
@@ -42,15 +42,18 @@ Rumble Falls / Bowser's Keep - Bowser's Keep originally from Ontario build | **P
 
 
 
-Mt Pyre - iirc has some kinda origins from earlier in P+'s life before Luigi's was legalized / made? | **Motobug**
+Mt Pyre - iirc has some kinda origins from earlier in P+'s life before Luigi's was legalized / made? | **Motobug**?
 
 
 
-Crateria - iirc existed elsewhere beforehand? | **Motobug**
+Crateria - iirc existed elsewhere beforehand? | **Motobug**?
 
 
 
 Flat Yohshi's Island - **Motobug**
+
+
+Chaos Angel - Ontario build, edited to change blastzones by **Iris Flower** | **PNut2k, white sheep / dbryce712**
 
 
 
@@ -78,8 +81,7 @@ Music -
 
 
 
-For music credits see SG Tracklist.md
-
+For music credits see https://docs.google.com/spreadsheets/d/1bD1rJL4IcjCkLc3DvkItZQge1qiIEtx27sAWtRYvktg/edit?usp=sharing
 
 
 **------**

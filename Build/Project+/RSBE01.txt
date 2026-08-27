@@ -2255,6 +2255,7 @@ op fmr f0, f3 @ $8010c888
 .include Source/LegacyTE/Masquerade.asm
 .include Source/LegacyTE/TagsControls.asm
 .include Source/LegacyTE/CSSCustomControls.asm
+.include Source/Community/RANDSUB.ASM
 
 #############################################################################
 ###################          Visual/Audio Codes          ####################
