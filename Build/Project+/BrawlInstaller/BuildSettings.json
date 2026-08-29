@@ -1807,8 +1807,8 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": 200,
-        "Height": 64
+        "Width": 100,
+        "Height": 32
       },
       "Format": 14,
       "FirstOnly": false,
@@ -1864,8 +1864,8 @@
       "FileSuffix": "",
       "IdType": 10,
       "Size": {
-        "Width": 200,
-        "Height": 64
+        "Width": 100,
+        "Height": 32
       },
       "Format": 14,
       "FirstOnly": false,
