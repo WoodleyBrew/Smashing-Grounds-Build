@@ -1906,7 +1906,7 @@
       "Suffix": "",
       "Multiplier": 1,
       "Offset": 0,
-      "SuffixDigits": 3,
+      "SuffixDigits": 2,
       "GroupMultiplier": 1,
       "FilePrefix": "",
       "FileSuffix": "",
@@ -1923,7 +1923,7 @@
       "AlwaysInheritStyle": false,
       "Required": false,
       "Enabled": true,
-      "Selectable": false,
+      "Selectable": true,
       "AlwaysCreateArchive": true,
       "PaletteCount": 256,
       "ImportTextures": true

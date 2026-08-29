@@ -356,166 +356,167 @@ Source/LegacyTE/TagsControls.asm
 	[Legacy TE] Load Player Tags on Win Screen v2 [PyotrLuzhin] @ Off 0xc630
 Source/LegacyTE/CSSCustomControls.asm
 	CSS Custom Controls V2.0 [Fracture, DukeItOut] @ Off 0xc690
-Franklin Badge SFX Modifier V2 [Magus, ds22] @ Off 0xd2d8
-Team Coloured Shields V2 [ds22] @ Off 0xd300
-Team Colour Shade Check Fix [ds22] @ Off 0xd328
-Phantom Hit SFX & GFX Modifier [ds22] @ Off 0xd378
-Wall Jump GFX Modifier [ds22] @ Off 0xd388
-CSS SFX Modifiers [Standardtoaster, Kapedani] @ Off 0xd390
-Mute announcer when updating rules without mode change [mawwwk] @ Off 0xd3b0
-No Audience SFX on Stage Selection v2.5 [Standardtoaster, DukeItOut, Kapedani, ilikepizza107] @ Off 0xd3f8
-Random has Announcer Call [standardtoaster] @ Off 0xd410
-SFX Fade Fix [ds22] @ Off 0xd440
-On-hit SFX Modifier [ds22] @ Off 0xd460
-All Music Available without Unlocking [Magus] @ Off 0xd478
-Locked Stage Music Fix [Magus] @ Off 0xd480
-Distance Player Icons Are Enforced Is More Lenient [DukeItOut] @ Off 0xd488
+Source/Community/RANDSUB.ASM
+Franklin Badge SFX Modifier V2 [Magus, ds22] @ Off 0xdaa8
+Team Coloured Shields V2 [ds22] @ Off 0xdad0
+Team Colour Shade Check Fix [ds22] @ Off 0xdaf8
+Phantom Hit SFX & GFX Modifier [ds22] @ Off 0xdb48
+Wall Jump GFX Modifier [ds22] @ Off 0xdb58
+CSS SFX Modifiers [Standardtoaster, Kapedani] @ Off 0xdb60
+Mute announcer when updating rules without mode change [mawwwk] @ Off 0xdb80
+No Audience SFX on Stage Selection v2.5 [Standardtoaster, DukeItOut, Kapedani, ilikepizza107] @ Off 0xdbc8
+Random has Announcer Call [standardtoaster] @ Off 0xdbe0
+SFX Fade Fix [ds22] @ Off 0xdc10
+On-hit SFX Modifier [ds22] @ Off 0xdc30
+All Music Available without Unlocking [Magus] @ Off 0xdc48
+Locked Stage Music Fix [Magus] @ Off 0xdc50
+Distance Player Icons Are Enforced Is More Lenient [DukeItOut] @ Off 0xdc58
 Source/Project+/CSE.asm
-	[Project+] Custom Sound Engine v4.2c [Dantarion, PyotrLuzhin, DukeItOut] @ Off 0xd4c0
+	[Project+] Custom Sound Engine v4.2c [Dantarion, PyotrLuzhin, DukeItOut] @ Off 0xdc90
 Source/Project+/ResultsMusic.asm
-	Custom Victory Themes v1.2a [Dantarion, KingJigglypuff] @ Off 0xdb88
-	Classic and All-Star Results Music Id Is Based On Fighter Id [DukeItOut, Kapedani] @ Off 0xdc48
+	Custom Victory Themes v1.2a [Dantarion, KingJigglypuff] @ Off 0xe358
+	Classic and All-Star Results Music Id Is Based On Fighter Id [DukeItOut, Kapedani] @ Off 0xe418
 Source/Project+/SFXExpand.asm
-	SFX and Music Setting Customizer [DukeItOut] @ Off 0xdcf8
-	[Project+] SoundBank Expansion System (RSBE.Ver) v2.5 [codes, DukeItOut, JOJI] @ Off 0xded0
-	Hitbox Sound Effect Change System v2.1 [Eon] @ Off 0xe710
-	[Project+] Sawnd Pop Fix V5b [DukeItOut] @ Off 0xe8a8
-	[Project+] Expansion sawnd characters are mute while metal [DukeItOut] @ Off 0xe8f8
-Cape Reversed Control Time [standardtoaster] @ Off 0xe970
+	SFX and Music Setting Customizer [DukeItOut] @ Off 0xe4c8
+	[Project+] SoundBank Expansion System (RSBE.Ver) v2.5 [codes, DukeItOut, JOJI] @ Off 0xe6a0
+	Hitbox Sound Effect Change System v2.1 [Eon] @ Off 0xeee0
+	[Project+] Sawnd Pop Fix V5b [DukeItOut] @ Off 0xf078
+	[Project+] Expansion sawnd characters are mute while metal [DukeItOut] @ Off 0xf0c8
+Cape Reversed Control Time [standardtoaster] @ Off 0xf140
 Source/Project+/YoshiEggs.asm
-	Yoshi Eggs are Costume Based v1.2β [ds22]  @ Off 0xe978
-	[Project+] Yoshi's eggshell particles are Colored 1.1 [DukeItOut] @ Off 0xe9e0
-	[Project+] Yoshi's Egg break out intang 14 > 9 [Fracture] @ Off 0xeac0
-	Yoshi Eggs don't despawn when Yoshi dies [Eon] @ Off 0xeac8
-	[Project+] Egged Damage Multiplier (0.5x -> 0.75x) [DukeItOut] @ Off 0xead0
-[Project+] Diddy Kong Flip Base Hold Time 70 > Infinite [Boiko] @ Off 0xead8
-Spacies Up-B Air Friction Fix [Magus] @ Off 0xeae0
-Falco Low Laser Fix [Eon] @ Off 0xeae8
-Fox Low Lasers Fix [Eon] @ Off 0xeb68
-Ignore Ganon Neutral-B Air Mobility Coding [Magus] @ Off 0xebe8
-Squirtle Side-B Footstool Uses Normal Requirement 0x2713 [Magus] @ Off 0xebf0
-Pokemon Trainer Infinite Stamina [Phantom Wings, spunit262] @ Off 0xec00
-PT Pokemon Have Final Smashes & FS Characters Don't v1.1 [ds22, Eon] @ Off 0xec08
-Independent Pokemon Engine HTP, Classic & MMS [ds22] @ Off 0xec68
-Independent Pokemon Save Data Engine + no wreck My Music v2 [spunit262] @ Off 0xed10
-Unload PT Data [ds22] @ Off 0xed28
-Aura Sphere Cancel [ds22] @ Off 0xed90
-[Project+] Aura Sphere Only Pulsates Horizontally v1.2 [DukeItOut, Eon] @ Off 0xedd0
-[Project+] Lucario Charge Glow Fix [Eon] @ Off 0xee78
-Samus Aerial Charge Shot Charging [ds22] @ Off 0xee88
-Samus Bombs account for Shields [DukeItOut] @ Off 0xeec8
-ZSS Jumbo Screen Name Fix [ds22] @ Off 0xeed0
-[Project+] Kirby Momentum isnt reset by Peanut Gun [Eon] @ Off 0xeee0
-[Project+] Mach Tornado Doesn't Ricochet [DukeItOut] @ Off 0xeee8
-[Project+] Dedede's Inhale Base Timer Reduction [Boiko] @ Off 0xeef8
-DDD Result Name Modifier [ds22] @ Off 0xef00
-[Project+] Roy Counter Fix [ds22]  @ Off 0xef18
-Sleep doesn't pierce armour in air [Eon]  @ Off 0xef38
-Ice Climber within Range Stores Variable V2 [Magus, DukeItOut] @ Off 0xef90
-Olimar Antenna Light Changes with Pikmin Color V1.1 [Magus] @ Off 0xefe0
-[Project+] All ground types but HRC act as basic for Pikmin pull chances [Eon] @ Off 0xf140
-Snake's U-Smash can Have Horizontal Velocity [Magus] @ Off 0xf160
-[Project+] Sonic/Knuckles Spin Dash Bucket Brake Fix [Eon] @ Off 0xf188
-Wario-Man has no FitResult [ds22] @ Off 0xf190
-Wario-Man Cosmetics [ds22] @ Off 0xf198
-Giga Bowser Cosmetics [ds22] @ Off 0xf1b8
-Alloys Can Shield, Dodge & Grab Ledges [ds22] @ Off 0xf1e8
+	Yoshi Eggs are Costume Based v1.2β [ds22]  @ Off 0xf148
+	[Project+] Yoshi's eggshell particles are Colored 1.1 [DukeItOut] @ Off 0xf1b0
+	[Project+] Yoshi's Egg break out intang 14 > 9 [Fracture] @ Off 0xf290
+	Yoshi Eggs don't despawn when Yoshi dies [Eon] @ Off 0xf298
+	[Project+] Egged Damage Multiplier (0.5x -> 0.75x) [DukeItOut] @ Off 0xf2a0
+[Project+] Diddy Kong Flip Base Hold Time 70 > Infinite [Boiko] @ Off 0xf2a8
+Spacies Up-B Air Friction Fix [Magus] @ Off 0xf2b0
+Falco Low Laser Fix [Eon] @ Off 0xf2b8
+Fox Low Lasers Fix [Eon] @ Off 0xf338
+Ignore Ganon Neutral-B Air Mobility Coding [Magus] @ Off 0xf3b8
+Squirtle Side-B Footstool Uses Normal Requirement 0x2713 [Magus] @ Off 0xf3c0
+Pokemon Trainer Infinite Stamina [Phantom Wings, spunit262] @ Off 0xf3d0
+PT Pokemon Have Final Smashes & FS Characters Don't v1.1 [ds22, Eon] @ Off 0xf3d8
+Independent Pokemon Engine HTP, Classic & MMS [ds22] @ Off 0xf438
+Independent Pokemon Save Data Engine + no wreck My Music v2 [spunit262] @ Off 0xf4e0
+Unload PT Data [ds22] @ Off 0xf4f8
+Aura Sphere Cancel [ds22] @ Off 0xf560
+[Project+] Aura Sphere Only Pulsates Horizontally v1.2 [DukeItOut, Eon] @ Off 0xf5a0
+[Project+] Lucario Charge Glow Fix [Eon] @ Off 0xf648
+Samus Aerial Charge Shot Charging [ds22] @ Off 0xf658
+Samus Bombs account for Shields [DukeItOut] @ Off 0xf698
+ZSS Jumbo Screen Name Fix [ds22] @ Off 0xf6a0
+[Project+] Kirby Momentum isnt reset by Peanut Gun [Eon] @ Off 0xf6b0
+[Project+] Mach Tornado Doesn't Ricochet [DukeItOut] @ Off 0xf6b8
+[Project+] Dedede's Inhale Base Timer Reduction [Boiko] @ Off 0xf6c8
+DDD Result Name Modifier [ds22] @ Off 0xf6d0
+[Project+] Roy Counter Fix [ds22]  @ Off 0xf6e8
+Sleep doesn't pierce armour in air [Eon]  @ Off 0xf708
+Ice Climber within Range Stores Variable V2 [Magus, DukeItOut] @ Off 0xf760
+Olimar Antenna Light Changes with Pikmin Color V1.1 [Magus] @ Off 0xf7b0
+[Project+] All ground types but HRC act as basic for Pikmin pull chances [Eon] @ Off 0xf910
+Snake's U-Smash can Have Horizontal Velocity [Magus] @ Off 0xf930
+[Project+] Sonic/Knuckles Spin Dash Bucket Brake Fix [Eon] @ Off 0xf958
+Wario-Man has no FitResult [ds22] @ Off 0xf960
+Wario-Man Cosmetics [ds22] @ Off 0xf968
+Giga Bowser Cosmetics [ds22] @ Off 0xf988
+Alloys Can Shield, Dodge & Grab Ledges [ds22] @ Off 0xf9b8
 Source/LegacyTE/CPU.asm
-	[Legacy TE] Default CPU level is 9 v2 [codes] @ Off 0xf200
+	[Legacy TE] Default CPU level is 9 v2 [codes] @ Off 0xf9d0
 Source/ProjectM/ButtonPresses.asm
-	[Project+] Independent Button Presses v3.1 [Magus, Eon, DukeItOut] @ Off 0xf238
-	Gamecube Controller Light LR Button Presses when not Set to Shield [Dantarion, Magus] @ Off 0xf3f8
-	Classic Controller Light LR Button Presses when not Set to Shield [Magus] @ Off 0xf468
-	Analog C-Stick, L R, & Light-Shield Button Stored as Variables v2.8 [Magus, DukeItOut] @ Off 0xf4e8
-	Tap Jump Requirement Checks for C-Stick not Pressed [Magus] @ Off 0xf878
-	Platform Drop C-Stick Aerial Fastfalling [Magus] @ Off 0xf8b0
-	C-Stick Set to Attack or Special Doesn't Also Input Jump [Magus] @ Off 0xf8f0
-	Up-B, Any Taunt, and Tap Jump Button Timers (tap-jump window fixed 0.715 -> 0.7) [Magus, Eon] @ Off 0xf900
-	Jump & Shield Timers Don't Reset on Button Clear [Magus] @ Off 0xf9d8
+	[Project+] Independent Button Presses v3.1 [Magus, Eon, DukeItOut] @ Off 0xfa08
+	Gamecube Controller Light LR Button Presses when not Set to Shield [Dantarion, Magus] @ Off 0xfbc8
+	Classic Controller Light LR Button Presses when not Set to Shield [Magus] @ Off 0xfc38
+	Analog C-Stick, L R, & Light-Shield Button Stored as Variables v2.8 [Magus, DukeItOut] @ Off 0xfcb8
+	Tap Jump Requirement Checks for C-Stick not Pressed [Magus] @ Off 0x10048
+	Platform Drop C-Stick Aerial Fastfalling [Magus] @ Off 0x10080
+	C-Stick Set to Attack or Special Doesn't Also Input Jump [Magus] @ Off 0x100c0
+	Up-B, Any Taunt, and Tap Jump Button Timers (tap-jump window fixed 0.715 -> 0.7) [Magus, Eon] @ Off 0x100d0
+	Jump & Shield Timers Don't Reset on Button Clear [Magus] @ Off 0x101a8
 Source/Project+/Debug/modifiedDebug.asm
 	Source/Project+/Debug/renderDebug.asm
-		Custom RenderDebug Call [Eon] @ Off 0xf9e0
-		Frame Advance Convert [Eon] @ Off 0xfaa8
-		drawQuadOutline [Eon] @ Off 0xfac8
-		drawLine3D [Eon] @ Off 0xfc48
-		DebugFileLoader [Eon] @ Off 0xfd68
-		renderDebug/[StageObject] [Eon] @ Off 0xfe18
-		renderDebug/[Yakumono] [Eon] @ Off 0xfff0
+		Custom RenderDebug Call [Eon] @ Off 0x101b0
+		Frame Advance Convert [Eon] @ Off 0x10278
+		drawQuadOutline [Eon] @ Off 0x10298
+		drawLine3D [Eon] @ Off 0x10418
+		DebugFileLoader [Eon] @ Off 0x10538
+		renderDebug/[StageObject] [Eon] @ Off 0x105e8
+		renderDebug/[Yakumono] [Eon] @ Off 0x107c0
 	Source/Project+/Debug/Hurtboxes Hitboxes.asm
-		renderDebug/[soCollisionAttackModuleImpl] [Eon] @ Off 0x10010
-		renderDebug/[soCollisionHitModuleImpl] @ Off 0x10238
-		Bubble Colour Modifiers @ Off 0x106f8
+		renderDebug/[soCollisionAttackModuleImpl] [Eon] @ Off 0x107e0
+		renderDebug/[soCollisionHitModuleImpl] @ Off 0x10a08
+		Bubble Colour Modifiers @ Off 0x10ec8
 	Source/Project+/Debug/Capsule Renderer.asm
-		Draw Capsules/Spheres [Eon] @ Off 0x10860
-		display/[clCapsule] [Eon]  @ Off 0x11338
-		display/[clSphere] [Eon] @ Off 0x113b0
+		Draw Capsules/Spheres [Eon] @ Off 0x11030
+		display/[clCapsule] [Eon]  @ Off 0x11b08
+		display/[clSphere] [Eon] @ Off 0x11b80
 	Source/Project+/Debug/Stage Collisions.asm
-		renderDebug/[Stage] [Eon] @ Off 0x11440
-		renderDebug/[grGimmick] [Eon] @ Off 0x11740
-		renderDebug/[grCollisionManager] [Eon] @ Off 0x11788
-		DrawCollision(SegmentData, CollisionData) [Eon] @ Off 0x11920
-		Fully transparent Shapes are not attempted to be drawn [Eon] @ Off 0x11b38
-		clRectangle and gfAreaTriangle draws correct [Eon] @ Off 0x11bf8
+		renderDebug/[Stage] [Eon] @ Off 0x11c10
+		renderDebug/[grGimmick] [Eon] @ Off 0x11f10
+		renderDebug/[grCollisionManager] [Eon] @ Off 0x11f58
+		DrawCollision(SegmentData, CollisionData) [Eon] @ Off 0x120f0
+		Fully transparent Shapes are not attempted to be drawn [Eon] @ Off 0x12308
+		clRectangle and gfAreaTriangle draws correct [Eon] @ Off 0x123c8
 	Source/Project+/Debug/soGroundModule.asm
-		Collision Debug Function [Arthur, Eon]  @ Off 0x11e08
-		draw/[clRhombus2D] [Eon] @ Off 0x11e60
-		Draw ECB adjustments [Eon] @ Off 0x11ff0
-		Draw Ledgegrab [Eon] @ Off 0x12038
-		Draw Touching Planes [Eon] @ Off 0x120c0
+		Collision Debug Function [Arthur, Eon]  @ Off 0x125d8
+		draw/[clRhombus2D] [Eon] @ Off 0x12630
+		Draw ECB adjustments [Eon] @ Off 0x127c0
+		Draw Ledgegrab [Eon] @ Off 0x12808
+		Draw Touching Planes [Eon] @ Off 0x12890
 	Source/Project+/Debug/gfSceneRoot.asm
-		renderDebug/[gfSceneRoot] [Eon] @ Off 0x12310
-	Debug Start Input v1.2 [Magus, ???, Eon] @ Off 0x123f8
-	Debug On the Fly Character Switcher v1.4 (Knuckles added by Eon) [Magus, Krisan Thyme, Eon] @ Off 0x12468
-	[Project+] Debug Controls v1.4 (Dolphin Fix v1.1) [Magus, ???, Eon]  @ Off 0x125a0
-	[Project+] Debug Camera, No HUD/Tags (Dolphin Fix v1.2) [Igglyboo, Link, Y.S, Phantom Wings, Magus, Eon] @ Off 0x12900
-	Debug Body Collision State, Armor, and Hitstun Overlays v1.2 [Magus] @ Off 0x12aa0
+		renderDebug/[gfSceneRoot] [Eon] @ Off 0x12ae0
+	Debug Start Input v1.2 [Magus, ???, Eon] @ Off 0x12bc8
+	Debug On the Fly Character Switcher v1.4 (Knuckles added by Eon) [Magus, Krisan Thyme, Eon] @ Off 0x12c38
+	[Project+] Debug Controls v1.4 (Dolphin Fix v1.1) [Magus, ???, Eon]  @ Off 0x12d70
+	[Project+] Debug Camera, No HUD/Tags (Dolphin Fix v1.2) [Igglyboo, Link, Y.S, Phantom Wings, Magus, Eon] @ Off 0x130d0
+	Debug Body Collision State, Armor, and Hitstun Overlays v1.2 [Magus] @ Off 0x13270
 Source/Project+/CStick.asm
-	C-stick Smash Fixes + functional tilt stick (reverse ftilt included) v1.2 [camelot, Eon] @ Off 0x12c28
-	[Project+] C-Stick Debug Mode and Slow Mode fix v4.3 [Fracture, DukeItOut, Eon] @ Off 0x12ec8
-	[Project+] Custom C-stick options [Eon] @ Off 0x12fa0
-	[Project+] C-stick mushing Fix [Eon] @ Off 0x13070
-	[Project+] C-Stick throws 2.0 [Eon, Dantarion, standardtoaster] @ Off 0x13078
-	Cstick Neutral range = Cstick input range [Eon] @ Off 0x13230
-	C-Stick backwards fsmash bug fix [Eon] @ Off 0x13238
+	C-stick Smash Fixes + functional tilt stick (reverse ftilt included) v1.2 [camelot, Eon] @ Off 0x133f8
+	[Project+] C-Stick Debug Mode and Slow Mode fix v4.3 [Fracture, DukeItOut, Eon] @ Off 0x13698
+	[Project+] Custom C-stick options [Eon] @ Off 0x13770
+	[Project+] C-stick mushing Fix [Eon] @ Off 0x13840
+	[Project+] C-Stick throws 2.0 [Eon, Dantarion, standardtoaster] @ Off 0x13848
+	Cstick Neutral range = Cstick input range [Eon] @ Off 0x13a00
+	C-Stick backwards fsmash bug fix [Eon] @ Off 0x13a08
 Source/Project+/Items.asm
-	Effects spawn on hitting items [DukeItOut] @ Off 0x13250
-	Max Items Spawnable 8 -> 12 [DukeItOut] @ Off 0x13260
-	Additional Item Switch Frequency Settings 'VERY HIGH', 'INTENSE', and 'BOMB RAIN' [DukeItOut] @ Off 0x13280
+	Effects spawn on hitting items [DukeItOut] @ Off 0x13a20
+	Max Items Spawnable 8 -> 12 [DukeItOut] @ Off 0x13a30
+	Additional Item Switch Frequency Settings 'VERY HIGH', 'INTENSE', and 'BOMB RAIN' [DukeItOut] @ Off 0x13a50
 Source/Project+/Co-OpSave.asm
-	2P Co-Op Defaults to First Costume [DukeItOut] @ Off 0x13398
+	2P Co-Op Defaults to First Costume [DukeItOut] @ Off 0x13b68
 Source/Project+/Physics.asm
-	Refresh ECB Diamond Function [DukeItOut] @ Off 0x13448
-	Momentum Shifts Revert Physics [DukeItOut] @ Off 0x135a8
-	Rising Aerial Fix [DukeItOut] @ Off 0x137b8
-	Air Dodges Calculate One Frame Earlier [DukeItOut, Fudgepop01, Eon] @ Off 0x13800
-	Landing Fix [Fudgepop01, DukeItOut] @ Off 0x13a68
-	Jumps Calculate One Frame Earlier [DukeItOut] @ Off 0x13b08
-	Shield Forward Angle Fix [DukeItOut] @ Off 0x13bf8
-	Windbox Stacking For Fighter Hitboxes [DukeItOut] @ Off 0x13c38
-	Duo Sticky Object Fix [DukeItOut] @ Off 0x13d40
-	Instant Fastfalls [Fudgepop01, DukeItOut] @ Off 0x13d90
-	Aerial/Onstage State 8 uses Momentum to Decide [DukeItOut] @ Off 0x13e40
-	Teeter Trigger Tweak [DukeItOut] @ Off 0x13e90
+	Refresh ECB Diamond Function [DukeItOut] @ Off 0x13c18
+	Momentum Shifts Revert Physics [DukeItOut] @ Off 0x13d78
+	Rising Aerial Fix [DukeItOut] @ Off 0x13f88
+	Air Dodges Calculate One Frame Earlier [DukeItOut, Fudgepop01, Eon] @ Off 0x13fd0
+	Landing Fix [Fudgepop01, DukeItOut] @ Off 0x14238
+	Jumps Calculate One Frame Earlier [DukeItOut] @ Off 0x142d8
+	Shield Forward Angle Fix [DukeItOut] @ Off 0x143c8
+	Windbox Stacking For Fighter Hitboxes [DukeItOut] @ Off 0x14408
+	Duo Sticky Object Fix [DukeItOut] @ Off 0x14510
+	Instant Fastfalls [Fudgepop01, DukeItOut] @ Off 0x14560
+	Aerial/Onstage State 8 uses Momentum to Decide [DukeItOut] @ Off 0x14610
+	Teeter Trigger Tweak [DukeItOut] @ Off 0x14660
 Source/Community/Heritage.asm
-	Access Fighter Ancestor [DukeItOut] @ Off 0x13ec0
+	Access Fighter Ancestor [DukeItOut] @ Off 0x14690
 Source/Community/ItemEx.asm
-	ItemEx Clone Engine v2.52 [Sammi Husky, Kapedani] @ Off 0x13f80
+	ItemEx Clone Engine v2.52 [Sammi Husky, Kapedani] @ Off 0x14750
 	Source/Community/DoubleCherry.asm
-		Cherry Double v1.2 [Kapedani] @ Off 0x175d8
-	Dragoon Parts Drops like a Normal Item With Multiplier If Parts Have Dropped [Kapedani]  @ Off 0x18308
-	Team Healer Always Heals Teammates [Kapedani] @ Off 0x18378
-	Touch Items Notify Outside Event Get Item [Kapedani] @ Off 0x18408
-	Every Item Can Have Collision v2 [Kapedani] @ Off 0x18448
-	Every Item Can Have Physics [Kapedani] @ Off 0x18470
-	Item Mayhem Mode (Item Switch Edition) + Butterfingers [MarioDox, DukeItOut, Kapedani] @ Off 0x18478
-	Passive Aggressive Mode [Kapedani] @ Off 0x185d8
-	All Assists are Unlocked [Kapedani] @ Off 0x18a20
-	ItemEx Mayhem and Passive Aggression Modes default to Off on Boot [Kapedani] @ Off 0x18a30
-	utArchivereqLoad 4th Parameter as 2 forces read instead of clone [DukeItOut, Kapedani] @ Off 0x18a68
+		Cherry Double v1.2 [Kapedani] @ Off 0x17da8
+	Dragoon Parts Drops like a Normal Item With Multiplier If Parts Have Dropped [Kapedani]  @ Off 0x18ad8
+	Team Healer Always Heals Teammates [Kapedani] @ Off 0x18b48
+	Touch Items Notify Outside Event Get Item [Kapedani] @ Off 0x18bd8
+	Every Item Can Have Collision v2 [Kapedani] @ Off 0x18c18
+	Every Item Can Have Physics [Kapedani] @ Off 0x18c40
+	Item Mayhem Mode (Item Switch Edition) + Butterfingers [MarioDox, DukeItOut, Kapedani] @ Off 0x18c48
+	Passive Aggressive Mode [Kapedani] @ Off 0x18da8
+	All Assists are Unlocked [Kapedani] @ Off 0x191f0
+	ItemEx Mayhem and Passive Aggression Modes default to Off on Boot [Kapedani] @ Off 0x19200
+	utArchivereqLoad 4th Parameter as 2 forces read instead of clone [DukeItOut, Kapedani] @ Off 0x19238
 Source/Community/Syringe.asm
-	Don't clear memory on game launch [Sammi Husky] @ Off 0x18a90
-	run codehandler after initializing memory [Sammi Husky] @ Off 0x18aa0
-	run codehandler after loading rels [Sammi Husky] @ Off 0x18ad0
-	Syringe Core Loader [Sammi Husky, DukeItOut] @ Off 0x18b10
+	Don't clear memory on game launch [Sammi Husky] @ Off 0x19260
+	run codehandler after initializing memory [Sammi Husky] @ Off 0x19270
+	run codehandler after loading rels [Sammi Husky] @ Off 0x192a0
+	Syringe Core Loader [Sammi Husky, DukeItOut] @ Off 0x192e0
 Source/Project+/MultiGCT.asm
-	Expansion GCT Available [DukeItOut] @ Off 0x18bd8
+	Expansion GCT Available [DukeItOut] @ Off 0x193a8

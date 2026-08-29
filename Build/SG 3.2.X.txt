@@ -8,4 +8,4 @@ Chaos Angel stagelist
 New Costumes
 Per Random Port Code
 
-Branch - 3.2.X-changes, Commit - 193df5ec76e5cac2f2a888f58450c43a4973b082
+Branch - 3.2.X-changes, Commit - 086f115adcfa392dd8fe06fb04cdee44f82e817b "RanSub Code"
