@@ -1,0 +1,97 @@
+For a Netplay / Dolphin build there are edits to the build that need to be made. This is because Dolphin's `Project+ Netplay Launcher.dol` uses NETPLAY.GCT & NETBOOST.GCT when loading the game, whereas `Project+ Offline Launcher.dol` uses RSBE01.GCT & Bootcut. A "+" indicates a new file is being added, A "X" indicates a file is being removed. I am not a 100% expert I just make my regions build and writing this down for both my future use and now yours too! - Iris Flower
+
++ Project+/pf/menu3 -
+	`dnet.cmnu`
+		(Netplay Code Menu, copy this directly from the Vanilla 3.2 build unless using a custom Code Menu)
+
++ Project+/pf/sound -
+	/netplaylist [New Folder]
+		(Copy of /tracklist folder)
+
++ Project+/pf/stage/switch
+	`SwitchFF.rss`
+		(Copy of Switch00)
+
++ Project+/Source/ -
+	`/Netplay` [New Folder]
+		`Net-CodeMenu.asm`
+			(Copy of CodeMenu.asm with many many differences, copy this directly from the Vanilla 3.2 build unless using a custom Code Menu)
+		`Net-MultiGCT.asm`
+			(Enables NETBOOST.gct, copy this directly from the Vanilla 3.2 build) 
+		`Net-Random.asm`
+			(Makes SwitchFF load instead of Switch00, and disables overwriting .rss files. Copy this directly from the Vanilla 3.2 build
+				HOWEVER!!, unless your build also has exactly 8 presets / RSS files the number of presets needs to be changed on Line 51)
+		`Net-StageFiles.asm`
+			(Copy of StageFiles.asm that changes it to use `netplaylist` for the tracklists, copy this directly from the Vanilla 3.2 build)
+
+X Project+/st -
+	Folder removed to remove Stage Builder stages
+
++ Project+/
+	`NETBOOST.GCT`
+	`NETPLAY.GCT`
+	`RSBE01.GCT`
+		(GCT files created via NETBOOST/NETPLAY/RSBE01.txt, use txt file with GCRealMate to create)
+
+	`NETBOOST.txt`
+		(Copy of BOOST.txt, with changes to load Net-StageFiles.asm, Net-Random.asm, and Netplay.asm. If BOOST.txt is identical to Vanilla 3.2 NETBOOST.txt and .GCT can be copied directly from Vanilla 3.2)
+	`NETPLAY.txt`
+		(Copy of RSBE01.txt, with changes
+			- Skip Strap Screen code is uncommented (! symbol is removed, un-disabling the code)
+			- Net-CodeMenu.asm is set to be used instead of CodeMenu.asm
+			- Net-MultiGCT.asm is set to be used instead of MultiGCT.asm
+	`RSBE01.txt`
+		Skip Strap Screen code is uncommented (! symbol is removed, un-disabling the code)
+
++ (Optional)
+	Don't Build This Build on a Wii.txt
+		Technically the only thing the sd.raw file needs is the Project+ folder, but this .txt files is a nice thing to prevent anyone from accidentally using it on their Wii. To quote DukeItOut "Short of it is the replay manager and in-game system in Dolphin saves to NAND. You do not want mods saving to a real NAND".
+
+
+Dolphin can create and manage an SD Card for you via Config -> Wii -> SD Card Settings, but if you prefer old fashioned ways see here
+VSDSync Guide - https://docs.google.com/document/d/10keWiKXYbMt1euIHl99hPukUFDKauqr3Ondf_sW_jgc/edit.
+Adding Mods to Dolphin P+/PM builds using imDisk - https://docs.google.com/document/d/1CitPCBgUl5jcqhT9TmwGE0C7FiM3aS_eo2eqVm97mI0
+
+
+
+
+
+--- More detailed summary of what this all does ---
+
+The big things that Netplay build has to do is prevent desyncs from randomness or user personalization settings. For brevity sake I will be shortening Project+ Netplay Launcher.dol and Project+ Offline Launcher.dol to Net.dol and Off.dol respectively. Net.dol uses NETPLAY.GCT & NETBOOST.GCT for its codes whereas Off.dol uses RSBE01.GCT & BOOST.GCT.
+
+
+
+| dnet.cmnu - Netplay Code menu file (I believe). The Netplay Code Menu differs as it has Autosave Replays on by default, there is likely more differences that I'm unaware of.
+
+| netplaylist folder - .tlst files save the frequency of when songs will be played per stage, therefore if two players have different frequency's they'll end up desyncing from the music being different on both ends. To prevent this Net.dol reads from this folder instead of the /tracklist folder and is prevented from saving any edits to the frequencies which prevents music desyncs. Off.dol can save edits to frequencies still .
+
+| SwitchFF.rss - Switch00 is the default stages preset the build loads, however unlike every other preset changes made to what stages are set to random and what stages have hazards On/Off are saved and kept for future sessions, which would cause desyncs on Netplay. Net.dol reads SwitchFF as the default stagelist instead and does not save any changes made to the preset, preventing desyncs. Off.dol can save edits to the default preset still.
+
+| st folder - Stage builder files save to the SD card in this folder, if two players have different stage builder files on their builds (by creating them using Off.dol) then they will desync on the SSS. Usually not a big deal as 99% of players don't use stage builder lol
+
+
+
+| Net-CodeMenu.asm - ASM used for the Netplay Code Menu, idk assembly lol so idk what it all means.
+
+| Net-MultiGCT.asm - MultiGCT.asm is normally what enables BOOST.GCT to be useable, this just changes it to look for NETBOOST.GCT instead.
+
+| Net-Random.asm - Code that enables SwitchFF to be used and prevent desyncs, see SwitchFF above
+
+| Net-StageFiles.asm - Code that enables /netplaylist to be used and prevent music desyncs, see netplaylist folder abov
+
+
+
+| NETPLAY.txt / NETPLAY.GCT
+	- The Skip Strap Screen code is in RSBEO1.txt, but has an "!" in front of it which comments out / disables it for console, by removing the "!" the code is reenabled letting Net.dol skip the strap screen (the secure your wrist strap to secure hype screen). 
+	- ".include Source/CodeMenu/CodeMenu.asm" changed to ".include Source/Netplay/Net-CodeMenu.asm", enabling the Netplay Code Menu to be used instead of the default Code Menu.
+	- ".include Source/Project+/MultiGCT.asm" changed to ".include Source/Netplay/Net-MultiGCT.asm", see Net-MultiGCT.asm above
+
+| NETBOOST.txt / NETPLAY.GCT
+	- ".include Source/Project+/StageFiles.asm" changed to ".include Source/Netplay/Net-StageFiles.asm", see Net-StageFiles.asm above
+	- ".include Source/Project+/Random.asm" changed to ".include Source/Netplay/Net-Random.asm", see Net-Random.asm above
+	- ".include Source/Extras/Console.asm" changed to ".include Source/Extras/Netplay.asm". Console.asm has a code that helps fix 480p pixel bug, uneccessary on Dolphin. Netplay.asm contains a code which makes the game have 1 less frame of input delay (something to do with Vsync disables in game and Dolphin resyncs it, not sure how it works myself), a code that will skip any prize unlock screens (like when you randomly unlock a song or notification you've played 100 matches etc), and most importantly will super own you if you use it on Wii!!!
+
+| RSBE01.txt / RSBE01.GCT
+	- The Skip Strap Screen code is reenabled so that Off.dol can skip it as well
+	
