@@ -10,7 +10,7 @@
 #.include Source/Extras/ASDImult.asm
 # Allows SDI multipliers to ignore ASDI
 
-#.include Source/Extras/AutosaveWiiLight.asm
+.include Source/Extras/AutosaveWiiLight.asm
 # Turns on the Wii disc slot light when Autosave Replays is enabled in the code menu
 
 #.include Source/Extras/QuickStart.asm

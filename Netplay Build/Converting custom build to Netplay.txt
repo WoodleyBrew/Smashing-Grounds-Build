@@ -87,7 +87,7 @@ The big things that Netplay build has to do is prevent desyncs from randomness o
 	- ".include Source/CodeMenu/CodeMenu.asm" changed to ".include Source/Netplay/Net-CodeMenu.asm", enabling the Netplay Code Menu to be used instead of the default Code Menu.
 	- ".include Source/Project+/MultiGCT.asm" changed to ".include Source/Netplay/Net-MultiGCT.asm", see Net-MultiGCT.asm above
 
-| NETBOOST.txt / NETPLAY.GCT
+| NETBOOST.txt / NETBOOST.GCT
 	- ".include Source/Project+/StageFiles.asm" changed to ".include Source/Netplay/Net-StageFiles.asm", see Net-StageFiles.asm above
 	- ".include Source/Project+/Random.asm" changed to ".include Source/Netplay/Net-Random.asm", see Net-Random.asm above
 	- ".include Source/Extras/Console.asm" changed to ".include Source/Extras/Netplay.asm". Console.asm has a code that helps fix 480p pixel bug, uneccessary on Dolphin. Netplay.asm contains a code which makes the game have 1 less frame of input delay (something to do with Vsync disables in game and Dolphin resyncs it, not sure how it works myself), a code that will skip any prize unlock screens (like when you randomly unlock a song or notification you've played 100 matches etc), and most importantly will super own you if you use it on Wii!!!
