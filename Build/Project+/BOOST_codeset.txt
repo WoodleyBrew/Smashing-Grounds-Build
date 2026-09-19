@@ -8320,3 +8320,11 @@ Variable 10xxxx range gets and sets projectile creator data [DukeItOut]
 * 38600003 98610019
 * 60000000 00000000
 
+Force Wii Light on When Autosave Replays is On [Eon, QuickLava]
+* C0000000 00000005
+* 3D60804E A18B0004
+* 280C804E 40820018
+* 818B003C 3D60CD00
+* 800B00C0 518026B4
+* 900B00C0 4E800020
+

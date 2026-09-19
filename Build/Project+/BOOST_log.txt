@@ -281,3 +281,5 @@ Source/Community/PSA/VariableParameter.asm
 Source/Extras/Console.asm
 	480p Pixel Fix Patch [leseratte, Eon] @ Off 0xf680
 Source/Extras/More.asm
+	Source/Extras/AutosaveWiiLight.asm
+		Force Wii Light on When Autosave Replays is On [Eon, QuickLava] @ Off 0xf698

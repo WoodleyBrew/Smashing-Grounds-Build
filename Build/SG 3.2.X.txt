@@ -1,11 +1,24 @@
-Ignore file, just here to help label build better
+fill this part out later, here's how to install cIOS
 
+blah
+
+balh
+
+jjjjjjjjjjoiaaaaaaaaaaaaaaaaaa
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------
 This info below for Iris Flower -
 
-Contains:
-3.2 update
-Chaos Angel stagelist
-New Costumes
-Per Random Port Code
-
-Branch - 3.2.X-changes, Commit - 086f115adcfa392dd8fe06fb04cdee44f82e817b "RanSub Code"
+Branch - 3.2.X-changes, Commit - 6176a0e22db68e6d8803346ef503b9d87ccae10f "Autosave Wii Light"

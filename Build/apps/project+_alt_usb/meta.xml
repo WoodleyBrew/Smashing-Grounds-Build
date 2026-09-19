@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <app version="1.0">
-	<name>Project+ Alt USB Loader</name>
+	<name>SG Alt USB Loader</name>
 	<version>70r78.13</version>
-	<coder>Project+ Dev Team</coder>
+	<coder>Project+ Dev Team, Iris Flower</coder>
 	<release_date>20250501180000</release_date>
-	<short_description>Project+ Alt USB Loader</short_description>
+	<short_description>Use if SG Launcher fails</short_description>
 	<long_description>
-Use this if you have problems with the main Project+ Launcher. Report any boot problems to #bug-reports.
-This is a modified version of CFG USB Loader designed for instantly loading Project+ via USB.</long_description>
+Use this if you have problems with the main SG Launcher. If this doesn't work please look in the SG 3.2.X.txt file to see instructions on how to install cIOS on the Wii, or just ping Iris</long_description>
 	<arguments>
 		<arg>#RSBE01</arg>
 		<arg>intro = 0</arg>

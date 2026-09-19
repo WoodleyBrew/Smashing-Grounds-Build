@@ -1,4 +1,4 @@
-If anyone knows origins of any custom content in the build please let me know so I can add it here!! :3
+If anyone knows origins of any custom content in the build please let me know so I can add it here!!
 
 Stages -
 
@@ -54,7 +54,7 @@ Flat Yohshi's Island - **Motobug**
 
 
 
-Chaos Angel - Ontario build, edited to change blastzones by **Iris Flower** | **PNut2k, white sheep / dbryce712**
+Chaos Angel - Ontario build | **PNut2k, white sheep / dbryce712**
 
 
 
