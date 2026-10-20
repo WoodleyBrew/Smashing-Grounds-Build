@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<app version="2.0">
+<app version="2.1">
 	<name>SG Launcher</name>
-	<version>3.2</version>
 	<coder>Project+ Dev Team, Iris Flower</coder>
-	<release_date>20250609174700</release_date>
+	<version>3.2.1</version>
+	<release_date>20200317174512</release_date>
 	<short_description>App to launch SG Build</short_description>
+	<long_description>A custom build of Project+ specifically made for the Massachusetts Project M community. This build is in thanks to Fluffcord and the found family that MAPM has provided me, I will always love you all - Iris</long_description>
 	<arguments>
 		<arg>codespath=sd:/project+</arg>
 	</arguments>
-	<long_description>
-A custom build of Project+ specifically made for the Massachusetts Project M community. This build is in thanks to Fluffcord and the found family that MAPM has provided me, I will always love you all - Iris</long_description>
+	<ahb_access/>
 </app>
