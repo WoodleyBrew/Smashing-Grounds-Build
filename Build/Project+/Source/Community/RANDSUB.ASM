@@ -15,10 +15,11 @@
 # Lists live in scratch RAM (persist across matches, reset on power off).
 # Empty list = vanilla random over the full roster.
 #
-# Coexists with the stock codeset untouched: "[Legacy TE] Melee Random v2"
-# hooks 0x8068AE24, a decide-path branch that never executes on P+'s CSS
-# (random placements carry slot 0x29, the code only acts on 0x28), so no
-# patch sites are shared.
+# One stock code shares a patch site (0x8068AE24, the edge-drop random):
+# "[Legacy TE] Melee Random v2" on P+ <= 3.1.5 (broken there; the installer
+# comments it out), "Melee Random Rewrite (P+ Version)" on P+ 3.2+ (left
+# untouched -- this file is included later in the codeset, so our hook is
+# applied after it and wins).
 #
 # Targets Project+ (RSBE01). Key facts (verified live against P+ 3.1.5):
 #   - sora_menu_sel_char.rel loads at 0x80682800
@@ -46,14 +47,14 @@
 .alias g_gfPadSystem       = 0x805A0040
 .alias playSE              = 0x800742B0   # (sndSystem*, id, -1, 0, 0, -1)
 .alias g_sndSystem         = 0x805A01D0
+# Placement callees, mirroring the stock "Melee Random Rewrite (P+
+# Version)" sequence (all in the CSS REL; identical on 3.1.5 and 3.2):
 .alias exchangeCharKind    = 0x806948D4   # (player*, slotKind) -> kind
-.alias initCharKind        = 0x80693D18   # (player*, kind)
-.alias getNumCharColor     = 0x800AF8D0   # (slotKind) -> costume count
-.alias setCharPic          = 0x8069742C
-.alias updateCharFace      = 0x800AF82C
-.alias getCharFaceParam    = 0x800AF6F0
-.alias setFranchiseIcon    = 0x800B7900   # (obj+0xB8 thing, f1)
-.alias setStockCharKind    = 0x80692498
+.alias placeCharKind       = 0x80696F60   # (player*, kind) set char on the area
+.alias refreshPanel        = 0x806939BC   # (player*, slot) -> costume count
+.alias incCostume          = 0x8069A22C   # (player*) step costume, wraps
+.alias cursorSync          = 0x8069ECA4   # (r29 ctx) highlight the placed char
+.alias panelCommit         = 0x806917E8   # (manager*, slot, cursorSync result)
 .alias PrevPadBase         = 0x80002920   # 4 words: per-port previous buttons
 .alias PreRollOff          = 0x410        # player object: deferred-random char
 
@@ -300,10 +301,12 @@ TogOut:
 # Melee-style instant random: drop the coin OUTSIDE the grid and a
 # character is rolled from your list and placed immediately. This is
 # the decide path: a dead-space drop arrives here with r27 = 0x28.
-# Supersedes the stock "Melee Random v2" code, which hooks this same
-# site (the installer disables that block: same-site conflict, and
-# its REL-relative calls are stale on P+). NOPing the vanilla beq at
-# 0x8068AE20 lets the 0x28 case fall through to us.
+# Supersedes the stock random code at this same site: "Melee Random
+# v2" on P+ <= 3.1.5 (installer comments it out -- stale REL calls),
+# "Melee Random Rewrite (P+ Version)" on 3.2+ (left in place; we are
+# applied later in the codeset, so our branch overwrites its branch
+# every codehandler pass). NOPing the vanilla beq at 0x8068AE20 lets
+# the 0x28 case fall through to us.
 # At 0x8068AE24 (original op: mr r3, r29): r27 = slot kind being
 # placed, r28 = player object, r31 = manager.
 ################################################################
@@ -395,58 +398,36 @@ RollChosen:
     %lwi(r6, RandTable)
     lbzx r4, r6, r10             # chosen character slot id
 
-    # ---- apply pick: mirrors Melee Random v2's update sequence ----
+    # ---- apply pick: mirrors the stock "Melee Random Rewrite (P+
+    # Version)" placement sequence -- the game's own path for exactly
+    # this reveal, at exactly this hook site. The old Melee Random v2
+    # sequence (initCharKind + setCharPic + face/franchise calls)
+    # painted the portrait synchronously and races P+ 3.2's async CSS
+    # portrait loading (ARSP): portraits appeared only ~half the time.
     mr r3, r28
     %call(exchangeCharKind)
     mr r4, r3
     mr r3, r28
-    %call(initCharKind)
-
-    lwz r3, 0x1B8(r28)
-    %call(getNumCharColor)
-    cmpwi r3, 1
-    ble- RollCostumeZero
-    %call(randi)
-    b RollCostumeStore
-RollCostumeZero:
-    li r3, 0
-RollCostumeStore:
-    stw r3, 0x1BC(r28)
-
+    %call(placeCharKind)
+    lwz r4, 0x1B8(r28)
     mr r3, r28
-    lwz r4, 0x1B8(r28)
-    lwz r5, 0x1B4(r28)
-    lwz r6, 0x1BC(r28)
-    lwz r7, 0x1F4(r28)
-    lbz r7, 0x5C8(r7)
-    lwz r8, 0x1C0(r28)
-    lbz r9, 0x1C4(r28)
-    %call(setCharPic)
-
-    lwz r3, 0x1B8(r28)
-    %call(updateCharFace)
-    %call(getCharFaceParam)
-    addi r3, r3, 1
-    # int -> float in f1, minus module constant (as Melee Random's helper)
-    xoris r3, r3, 0x8000
-    stw r3, 0x3C(r1)
-    lis r0, 0x4330
-    stw r0, 0x38(r1)
-    lfd f0, 0x38(r1)
-    lis r12, 0x806A
-    lfd f1, 0x0EB8(r12)
-    fsubs f1, f0, f1
-    lwz r3, 0xB8(r28)
-    %call(setFranchiseIcon)
-
-    lwz r0, 0x3DC(r31)
+    %call(refreshPanel)          # leaves the costume count in r3
+    %call(randi)
+    mr. r27, r3                  # r27 = random number of costume steps
+RollCostume:
+    beq- RollCostumeDone
+    mr r3, r28
+    %call(incCostume)
+    subic. r27, r27, 1
+    bne+ RollCostume
+RollCostumeDone:
     lwz r27, 0x1B8(r28)          # code after the hook expects the new slot here
-    cmpwi r0, 0
-    beq- RollDone
+    mr r3, r29
+    %call(cursorSync)
+    mr r5, r3
     mr r3, r31
-    lwz r4, 0x1B8(r28)
-    lwz r5, 0x1BC(r28)
-    %call(setStockCharKind)
+    mr r4, r27
+    %call(panelCommit)
 RollDone:
     lwz r0, 0x44(r1)
     mtlr r0
