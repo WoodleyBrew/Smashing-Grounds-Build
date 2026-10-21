@@ -6,7 +6,7 @@
 	<release_date>20250501180000</release_date>
 	<short_description>Use if SG Launcher fails</short_description>
 	<long_description>
-Use this if you have problems with the main SG Launcher. If this doesn't work please look in the SG 3.2.X.txt file to see instructions on how to install cIOS on the Wii, or just ping Iris</long_description>
+Use this if you have problems with the main SG Launcher. If this doesn't work please ping Iris</long_description>
 	<arguments>
 		<arg>#RSBE01</arg>
 		<arg>intro = 0</arg>
